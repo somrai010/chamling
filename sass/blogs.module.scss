@@ -18,7 +18,7 @@
     height:400px;
     background-color: rgb(53, 31, 31);
     color:white;
-    background-image: url('/storyphoto.jpg');
+    background-image: url('/blogbackground.jpg');
     background-size: cover;
     h2 {
         text-align: center;
@@ -30,57 +30,10 @@
 }
 
 
-.globalstories {
-    width:100%;
-    height:auto;
-    padding: 70px;
-    h2  {
-        font-size: 35px;
-        font-family: c.$boldfont;
-        margin:0px;
-        padding:0px;
-        text-align: center;
-        font-weight: 100;
-    }
-.globalstory {
-    width:100%;
-    height:auto;
-    box-sizing: border-box;
- 
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%; 
-
-}
-}
 
 
 
 
-
-.videostories {
-    width:100%;
-    height:auto;
-    padding: 70px;
-    h2  {
-        font-size: 35px;
-        font-family: c.$boldfont;
-        margin:0px;
-        padding:0px;
-        text-align: center;
-        font-weight: 100;
-    }
-.videostory {
-    width:100%;
-    height:auto;
-    box-sizing: border-box;
- 
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%; 
-
-}
-}
 
 
 
@@ -91,16 +44,7 @@
     .stories {
         grid-template-columns: 50% 50%;
     }
-    .videostories {
-       
-        h2  {
-            font-size: 40px;
-        }
-    .videostory {
-        grid-template-columns: 50% 50%; 
-    
-    }
-    }
+   
 }
 
 @media (max-width:700px) {
@@ -109,17 +53,7 @@
         grid-template-columns: 100%;
     }
 
-    .videostories {
-        padding:10px;
-       
-        h2  {
-            font-size: 40px;
-        }
-    .videostory {
-        grid-template-columns: 100%; 
-    
-    }
-    }
+   
 
     .ourstories {
         height:150px;
