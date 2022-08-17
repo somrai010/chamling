@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Navbar from "../../components/Nav2";
+import Navbar from "../../components/Nav";
 import { createClient } from 'contentful';
 
 import styles from '../../sass/blogs.module.scss';

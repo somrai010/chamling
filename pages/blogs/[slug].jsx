@@ -5,7 +5,7 @@ import { createClient } from 'contentful'
 // import BlogLayout from '../../components/blogs/Layout';
 
 import Breadcrumbs from '../../components/Breadcrumbs';
-import Nav2 from '../../components/Nav2';
+import Nav2 from '../../components/Nav';
 
 
 import styles from '../../sass/blogs.module.scss'
