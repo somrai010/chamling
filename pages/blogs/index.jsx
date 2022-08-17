@@ -5,6 +5,9 @@ import { createClient } from 'contentful';
 
 import styles from '../../sass/blogs.module.scss';
 
+import Template from '../../components/template/Template'
+import Blogcard from "../../components/Blogcard";
+
 
 const client = createClient({
   space:process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
@@ -17,51 +20,73 @@ export async function getStaticProps() {
     content_type: "blogPost",
   });
 
+  
+
+ 
+
   return {
     props: {
       articles: data.items,
+     
     },
     revalidate: 50,
   };
 }
 
-export default function Home({ articles }) {
 
-console.log(articles[0])
-console.log(articles[0].fields.coverphoto.fields.file.details.image.height)
+
+
+
+
+
+
+// console.log('videos',data2)
+
+
+export default function Home({ articles,articles2,articles3 }) {
+
+// console.log(articles[0])
+// console.log(articles[0].fields.coverphoto.fields.file.details.image.height)
 
   return (
-    <div className='blog-list'>
+    <div>
       <Head>
-        <title>Ktm technologies blogs</title>
+        <title>Chamling Cycle Blogs</title>
     
       </Head>
-<Navbar/>
+<Template>
+<div className={styles.ourstories}>
+
+  <h2>OUR Blogs</h2>
+</div>
 
 
-      <main className={styles.blogs}>
+      <main className={styles.stories}>
    
           {articles.map((article) => (
             <div key={article.sys.id}>
 
-              <Link href={"/blogs/" + article.fields.slug}>
+              <Blogcard slug={article.fields.slug} src={article.fields.coverphoto.fields.file.url}
+              width={article.fields.coverphoto.fields.file.details.image.width} height={article.fields.coverphoto.fields.file.details.image.height}
+              title={article.fields.title}
+              date={article.fields.date}
+              folder='/blogs/'
+              />
 
-                <a>
-                {article.fields.coverphoto.fields.file.url && <img src={'https:' + article.fields.coverphoto.fields.file.url} alt='Cover Image' width={article.fields.coverphoto.fields.file.details.image.width} height={article.fields.coverphoto.fields.file.details.image.height}/>
-}
-                <h2>{article.fields.title}</h2>
-                {/* <p>{article.fields.description}</p> */}
-                <span>Published date: {article.fields.date}</span>
-               
-
-
-                </a>
-              </Link>
             </div>
           ))}
     
       </main>
 
+
+
+
+
+
+
+
+
+  </Template>
 
 
    

@@ -2,13 +2,15 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import { BLOCKS } from "@contentful/rich-text-types";
 import Head from 'next/head';
 import { createClient } from 'contentful'
+
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 // import BlogLayout from '../../components/blogs/Layout';
 
 import Breadcrumbs from '../../components/Breadcrumbs';
-import Nav2 from '../../components/Nav';
+import Template from '../../components/template/Template'
 
 
-import styles from '../../sass/blogs.module.scss'
+import styles from '../../sass/blog.module.scss'
 
 const client = createClient({
   space:process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
@@ -50,21 +52,22 @@ export default function Article({ article }) {
 
 
   return (
-    <div className={styles.blogpost}>
+    <div>
 
 <Head>
   <title>{article.fields.title}</title>
  
 </Head>
 
-<Nav2/>
-<Breadcrumbs slug={article.fields.slug}/>
+<Template>
 
-{/* <BlogLayout> */}
-<div className={styles.blog}>
+<Breadcrumbs topic='STORIES' link='/blogs' slug={article.fields.slug}/>
+
+<div className={styles.story}>
 <div className={styles.header}>
 <h1>{article.fields.title}</h1>
-{/* <p>Published date: {article.fields.date}| Written by:{article.fields.author} </p> */}
+{article.fields.date &&<p><span><CalendarMonthIcon/></span> {article.fields.date} </p>}
+{/* <p>Written by:{article.fields.author}</p> */}
 </div>
 
    <section className={styles.content}>
@@ -92,7 +95,9 @@ export default function Article({ article }) {
  </section>
 
  </div>
-{/* </BlogLayout> */}
+
+ </Template>
+
 
     </div>
   );

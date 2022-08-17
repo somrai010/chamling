@@ -1,26 +1,130 @@
-.blogs {
-    margin-top: 100px;
+@use './global' as c;
+
+.stories {
     width:100%;
     height:auto;
     box-sizing: border-box;
     padding: 70px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: 33% 33% 33%; 
-    div {
-        margin: 20px;
-        height: 300px;
-        img {
-            width:100%;
-            height: 60%;
-            object-fit: cover;
 
-        }
+
+}
+
+
+.ourstories {
+    width:100%;
+    height:400px;
+    background-color: rgb(53, 31, 31);
+    color:white;
+    background-image: url('/storyphoto.jpg');
+    background-size: cover;
+    h2 {
+        text-align: center;
+        line-height: 700px;
+        font-family: c.$boldfont;
+        font-weight: 100;
+
     }
 }
 
 
-
-.blog {
+.globalstories {
+    width:100%;
+    height:auto;
     padding: 70px;
+    h2  {
+        font-size: 35px;
+        font-family: c.$boldfont;
+        margin:0px;
+        padding:0px;
+        text-align: center;
+        font-weight: 100;
+    }
+.globalstory {
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+ 
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+
+}
+}
+
+
+
+
+
+.videostories {
+    width:100%;
+    height:auto;
+    padding: 70px;
+    h2  {
+        font-size: 35px;
+        font-family: c.$boldfont;
+        margin:0px;
+        padding:0px;
+        text-align: center;
+        font-weight: 100;
+    }
+.videostory {
+    width:100%;
+    height:auto;
+    box-sizing: border-box;
+ 
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+
+}
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+    .stories {
+        grid-template-columns: 50% 50%;
+    }
+    .videostories {
+       
+        h2  {
+            font-size: 40px;
+        }
+    .videostory {
+        grid-template-columns: 50% 50%; 
     
+    }
+    }
+}
+
+@media (max-width:700px) {
+    .stories {
+        padding:2px;
+        grid-template-columns: 100%;
+    }
+
+    .videostories {
+        padding:10px;
+       
+        h2  {
+            font-size: 40px;
+        }
+    .videostory {
+        grid-template-columns: 100%; 
+    
+    }
+    }
+
+    .ourstories {
+        height:150px;
+        h2 {
+            line-height: 150px;
+        }
+    }
 }
