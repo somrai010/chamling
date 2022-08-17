@@ -18,7 +18,7 @@ const client = createClient({
 
 export async function getStaticPaths() {
   let data = await client.getEntries({
-    content_type: "blogs",
+    content_type: "blogPost",
   });
 
   return {
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   let data = await client.getEntries({
-    content_type: "blogs",
+    content_type: "blogPost",
     "fields.slug": params.slug,
   });
 
@@ -64,7 +64,7 @@ export default function Article({ article }) {
 <div className={styles.blog}>
 <div className={styles.header}>
 <h1>{article.fields.title}</h1>
-<p>Published date: {article.fields.date}| Written by:{article.fields.author} </p>
+{/* <p>Published date: {article.fields.date}| Written by:{article.fields.author} </p> */}
 </div>
 
    <section className={styles.content}>

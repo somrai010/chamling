@@ -14,7 +14,7 @@ const client = createClient({
 
 export async function getStaticProps() {
   let data = await client.getEntries({
-    content_type: "blogs",
+    content_type: "blogPost",
   });
 
   return {
@@ -27,8 +27,8 @@ export async function getStaticProps() {
 
 export default function Home({ articles }) {
 
-// console.log(articles[0])
-// console.log(articles[0].fields.coverphoto.fields.file.details.image.height)
+console.log(articles[0])
+console.log(articles[0].fields.coverphoto.fields.file.details.image.height)
 
   return (
     <div className='blog-list'>
@@ -37,6 +37,8 @@ export default function Home({ articles }) {
     
       </Head>
 <Navbar/>
+
+
       <main className={styles.blogs}>
    
           {articles.map((article) => (
