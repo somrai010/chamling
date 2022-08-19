@@ -3,6 +3,8 @@ import Head from 'next/head'
 
 import Nav from '../components/Nav'
 
+import Slider from '../components/Slider'
+
 
 
 const Home: NextPage = () => {
@@ -22,7 +24,7 @@ const Home: NextPage = () => {
 <div className='homepage'>
 
 <Nav/>
-  
+  <Slider/>
 
 </div>
     </div>

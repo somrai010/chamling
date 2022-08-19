@@ -155,7 +155,7 @@ const Header = () => {
 
 
 
-              <Button href='/' className={styles.button} >
+              <Button href='/contact' className={styles.button} >
                 Contact Us
               </Button>
             </>

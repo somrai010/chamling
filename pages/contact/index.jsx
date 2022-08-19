@@ -10,7 +10,7 @@ import CallIcon from '@mui/icons-material/Call';
 import { Button } from '@mui/material';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 
-import Nav2 from '../../components/Nav2'
+import Nav2 from '../../components/Nav'
 
 import {db,storage,collection, addDoc,getStorage, ref,sRef, uploadBytes,updateDoc,doc, uploadBytesResumable, getDownloadURL } from '../../firebase/firebase' 
 
@@ -71,7 +71,9 @@ function handleSubmit(e) {
     <div className={styles.form}>
 <h3><FiberManualRecordIcon fontSize='small'/> Get In Touch</h3>
 <h2>Ready To Get Started</h2>
-<form onSubmit={handleSubmit}>
+
+{/* onSubmit={handleSubmit} */}
+<form >
     <TextField
   label="Your Name"
   value={name}
@@ -173,12 +175,12 @@ type='submit'
    the form below and we will give you a call!</p>
 
 <h4><MyLocationIcon/> Our Location</h4>
-<p>Kupondole, Lalitpur, Nepal</p>
+<p>Lakeside, Pokhara</p>
 <h4><EmailIcon/> Our MailBox</h4>
-<p>info@ktmtech.com</p>
+<p>chamlingcycle@gmail.com</p>
 <h4><CallIcon/> Our Phones</h4>
-<p>+977-9846793894</p>
-<p>+977-9808437777</p>
+{/* <p>+977-9846793894</p>
+<p>+977-9808437777</p> */}
 
     </div>
 </div>

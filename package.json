@@ -23,7 +23,8 @@
     "react-icons": "^4.4.0",
     "react-reveal": "^1.2.2",
     "recharts": "^2.1.9",
-    "sass": "^1.51.0"
+    "sass": "^1.51.0",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "17.0.30",
