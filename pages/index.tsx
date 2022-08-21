@@ -3,7 +3,10 @@ import Head from 'next/head'
 
 import Nav from '../components/Nav'
 
-import Slider from '../components/Slider'
+import Slider from '../components/Slider';
+import Newarrivals from '../components/Newarrivals';
+import Footer from '../components/Footer';
+import Superfooter from '../components/Superfooter';
 
 
 
@@ -17,15 +20,21 @@ const Home: NextPage = () => {
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tapestry&display=swap" rel="stylesheet"/> 
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Fira+Sans+Condensed&family=Roboto:wght@300&family=Tapestry&display=swap" rel="stylesheet"/> 
      </Head>
 
 <div className='homepage'>
 
 <Nav/>
-  <Slider/>
+<Slider/>
+<Newarrivals/>
 
+
+
+
+<Footer/>
+{/* <Superfooter/> */}
 </div>
     </div>
   )
