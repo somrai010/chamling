@@ -1,8 +1,8 @@
+import Head from 'next/head';
+
 import '../css/globals.css'
 import '../css/index.css';
 
-
-import Head from 'next/head'
 
 import '../css/globals.css'
 import '../css/index.css';
@@ -17,10 +17,24 @@ import "swiper/css/navigation";
 
 import "swiper/css/bundle";
 
+
+import {CartProvider} from '../contexts/CartContext';
+
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+  return( 
+  <>
+  <Head>
+<title>sfs</title>
+  </Head>
+
+<CartProvider>
+
+  <Component {...pageProps} />
+
+</CartProvider>
+  </>
+)}
 
 export default MyApp

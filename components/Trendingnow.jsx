@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 
-import styles from './scss/trendingnow.module.scss';
+import styles from './sass/trendingnow.module.scss';
 
 export default function Trendingnow() {
     return (

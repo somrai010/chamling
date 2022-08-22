@@ -140,8 +140,8 @@ const Header = () => {
           </li>
 
 
-
-
+          <li><Link href="/parts"><a>PARTS</a></Link></li>
+          <li><Link href="/"><a>ACCESSORIES</a></Link></li>
           <li><Link href="/blogs"><a>BLOGS</a></Link></li>
          
         </ul>

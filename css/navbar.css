@@ -48,6 +48,7 @@ nav .content .links{
   padding: 9px 17px;
   border-radius: 5px;
   transition: all 0.3s ease;
+ 
 }
 .content .links li label{
   display: none;
@@ -55,7 +56,8 @@ nav .content .links{
 .content .links li a:hover,
 .content .links li label:hover{
     color:blue;
-    transition: all 0.5s linear 0s;
+    transition: all 0s linear 0s;
+    border: 2px solid orange;
  
 }
 .wrapper .search-icon,
@@ -106,7 +108,11 @@ nav .content .links{
     text-align: center;
     margin:0px;
     padding:0px;
+    background-color: aliceblue;
    
+}
+.content .links ul li:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 .content .links li:hover > ul{
@@ -126,6 +132,7 @@ nav .content .links{
   text-transform: uppercase;
   text-align: left;
   font-size: 14px;
+ 
   
 }
 .content .links ul ul{
@@ -143,6 +150,7 @@ nav .content .links{
 
 .content .links ul li{
   position: relative;
+  
 }
 .content .links ul li:hover ul{
   top: 0;

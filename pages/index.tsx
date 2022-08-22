@@ -5,8 +5,13 @@ import Nav from '../components/Nav'
 
 import Slider from '../components/Slider';
 import Newarrivals from '../components/Newarrivals';
+import Bestseller from '../components/Bestseller';
+import Trendingnow from '../components/Trendingnow';
 import Footer from '../components/Footer';
 import Superfooter from '../components/Superfooter';
+
+
+
 
 
 
@@ -30,7 +35,8 @@ const Home: NextPage = () => {
 <Slider/>
 <Newarrivals/>
 
-
+<Bestseller/>
+<Trendingnow/>
 
 
 <Footer/>
