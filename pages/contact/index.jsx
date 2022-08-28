@@ -12,8 +12,6 @@ import MyLocationIcon from '@mui/icons-material/MyLocation';
 
 import Nav2 from '../../components/Nav'
 
-import {db,storage,collection, addDoc,getStorage, ref,sRef, uploadBytes,updateDoc,doc, uploadBytesResumable, getDownloadURL } from '../../firebase/firebase' 
-
 
 export default function Index() {
 
@@ -27,34 +25,18 @@ const [docid,setDocid]=useState('')
 
 
 
-function handleSubmit(e) {
+function sendEmail(e) {
   e.preventDefault();
-  const docRef = addDoc(collection(db, "contactform"), {
-    name,
-    email,
-    phone,
-    message,
-    docid,
 
+emailjs.sendForm('service_ibinqcn', 'template_xh72uim', e.target, 'mCNkRUW2yO0n1k_IL')
+  .then((result) => {
 
-   }).then((docRef)=> {
-     const updateRef = doc(db, "contactform", docRef.id);
-
-   updateDoc(updateRef, {
-       docid:docRef.id,
-   });
-
-    alert('Form Submitted successfully');
-    setName('')
-    setEmail('')
-    setPhone('')
-    setMessage('');
-
-   })
-
-
-
-  }
+  }, (error) => {
+  
+  });
+  e.target.reset()
+  alert('Thanks for contacting us we will look froward !!')
+}
 
 
 

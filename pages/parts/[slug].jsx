@@ -53,11 +53,18 @@ export default function Post({article}) {
 
 
 
+
+  
+
+
+
     // const { product } = article;
     // console.log('p',article)
 
 return (
 <div className={styles.product}>
+
+  
 <Template>
 <Productdetailcart product={article}/>
 </Template>        

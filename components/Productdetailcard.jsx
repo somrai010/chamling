@@ -1,6 +1,9 @@
 import React, { useState, useContext, useEffect } from 'react'
 import Link from 'next/link'
+import Head from 'next/head';
 import styles from './sass/productdetailcard.module.scss';
+
+import emailjs from "emailjs-com";
 
 import { CartContext } from '../contexts/CartContext';
 
@@ -22,9 +25,17 @@ export default function Productdetailcart(props) {
     const [bigimg, setBigimg] = useState('https:'+product.fields.photos[0].fields.file.url);
     const [color, setColor] = useState('');
     const [size, setSize] = useState('');
-    const [qty, setQty] = useState(1);
+  
     const [note, setNote] = useState('');
     const [item, setItem] = useState();
+
+
+    const [qty, setQty] = useState(1);
+    const [name, setName] = useState(product.fields.name);
+    const [price, setPrice] = useState(product.fields.price);
+    const [phone,setPhone]=useState("")
+
+
 
 
     const changeImg = (e) => {
@@ -52,6 +63,23 @@ export default function Productdetailcart(props) {
 
     }
 
+function sendEmail(e) {
+        e.preventDefault();
+      
+      emailjs.sendForm('service_j4old0b', 'template_x6t6x3p', e.target, '2YsCGZTlbDPkEqQeQ')
+        .then((result) => {
+      
+        }, (error) => {
+            
+        
+        });
+        e.target.reset()
+        alert('Thanks for Your Booking we will look froward !!')
+      }
+
+
+
+
 
 
     useEffect(() => {
@@ -65,7 +93,10 @@ export default function Productdetailcart(props) {
         <>
             <div className={styles.productdetails}>
               
-
+<Head>
+    <title>{product.fields.name}</title>
+    <link rel="icon" href="/favicon.png" />
+</Head>
                 <div className={styles.product}>
                     <div className={styles.image}>
                         <div className={styles.smallimg}>
@@ -126,18 +157,27 @@ export default function Productdetailcart(props) {
 
                             <label htmlFor='color'>Quantity*:</label>
                             <input type='number' placeholder='1' value={qty}
-                                onChange={(e) => setQty(e.target.value)} />
+                                onChange={(e) => setQty(e.target.value)} /><br/>
+
+
+                                 <input type='text' className={styles.cphone} placeholder='Your Phone*' value={phone}
+                                onChange={(e) => setPhone(e.target.value)} required/>
 
                         </div>
 
                         <div className={styles.addtocart}>
-                        {/* <div className={styles.form}>
-
-                        </div> */}
-                           
-                            <button className={styles.button2}><span><AiOutlineCreditCard /></span> Buy Now</button>
+                            <form onSubmit={sendEmail}>
+                        <div className={styles.hiddenform}>
+<input type='text'  value={name} name='name'/>
+<input type='text' value={price} name='price' />
+<input type='text' value={qty} name='qty' />
+<input type='text' value={phone} name='phone' required/>
                         </div>
-
+                           
+                            <button className={styles.button2}><span><AiOutlineCreditCard /></span> Book Now</button>
+                            </form>
+                        </div>
+                       
 
                     </div> 
 

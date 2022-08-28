@@ -154,6 +154,16 @@
         border:0px;
    
     }
+    .cphone {
+        width:250px;
+        height:40px;
+        border:2px solid red;
+        position: relative;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 3px;
+        
+    }
 }
 .addtocart {
     width:100%;
@@ -215,6 +225,12 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 }
+
+
+.hiddenform {
+    display: none;
+}
+
 
 
 

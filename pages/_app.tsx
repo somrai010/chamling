@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return( 
   <>
   <Head>
-<title>sfs</title>
+<title>Chamling Cycles</title>
   </Head>
 
 <CartProvider>

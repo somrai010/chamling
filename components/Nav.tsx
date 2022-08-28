@@ -63,7 +63,7 @@ const Header = () => {
           
          
             <ul>
-              <li>
+              {/* <li>
                 <a href="#" className="desktop-link">Projects</a>
     
                 <ul>
@@ -71,7 +71,7 @@ const Header = () => {
                   <li><a href="/projects/empowerment">fsfsfsf</a></li>
                   <li><a href="/projects/equality">sfsfsfs</a></li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <a href="#" className="desktop-link">Road Bikes</a>
               </li>
@@ -155,9 +155,9 @@ const Header = () => {
 
 
 
-              <Button href='/contact' className={styles.button} >
+              {/* <Button href='/contact' className={styles.button} >
                 Contact Us
-              </Button>
+              </Button> */}
             </>
           )}
         </Toolbar>
