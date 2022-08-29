@@ -144,9 +144,9 @@ const Header = () => {
           <li><Link href="/parts"><a>PARTS</a></Link>
           
           <ul>
-                  <li><a href="/">Part-1</a></li>
-                  <li><a href="/">Part-2</a></li>
-                  <li><a href="/">Part-3</a></li>
+                  <li><a href="#">Part-1</a></li>
+                  <li><a href="#">Part-2</a></li>
+                  <li><a href="#">Part-3</a></li>
                 </ul>
           
           </li>
@@ -154,12 +154,12 @@ const Header = () => {
 
           <li><Link href="/"><a>ACCESSORIES</a></Link>
           <ul>
-                  <li><a href="/">Acce-1</a></li>
-                  <li><a href="/">Acce-2</a></li>
-                  <li><a href="/">Accce-3</a></li>
-                  <li><a href="/">Acce-1</a></li>
-                  <li><a href="/">Acce-2</a></li>
-                  <li><a href="/">Accce-3</a></li>
+                  <li><a href="#">Acce-1</a></li>
+                  <li><a href="#">Acce-2</a></li>
+                  <li><a href="#">Accce-3</a></li>
+                  <li><a href="#">Acce-1</a></li>
+                  <li><a href="#">Acce-2</a></li>
+                  <li><a href="#">Accce-3</a></li>
                   
                 </ul>
           
@@ -169,12 +169,12 @@ const Header = () => {
           <li><Link href="/"><a>APPARELS</a></Link>
           
           <ul>
-                  <li><a href="/">App-1</a></li>
-                  <li><a href="/">App-2</a></li>
-                  <li><a href="/">App-3</a></li>
-                  <li><a href="/">App-1</a></li>
-                  <li><a href="/">App-2</a></li>
-                  <li><a href="/">App-3</a></li>
+                  <li><a href="#">App-1</a></li>
+                  <li><a href="#">App-2</a></li>
+                  <li><a href="#">App-3</a></li>
+                  <li><a href="#">App-1</a></li>
+                  <li><a href="#">App-2</a></li>
+                  <li><a href="#">App-3</a></li>
                 </ul>
           
           </li>
@@ -184,12 +184,12 @@ const Header = () => {
           <li><Link href="/"><a> PROTECTORS</a></Link>
           
           <ul>
-                  <li><a href="/">Protector-1</a></li>
-                  <li><a href="/">Protector-2</a></li>
-                  <li><a href="/">Protector-3</a></li>
-                  <li><a href="/">Protector-1</a></li>
-                  <li><a href="/">Protector-2</a></li>
-                  <li><a href="/">Protector-3</a></li>
+                  <li><a href="#">Protector-1</a></li>
+                  <li><a href="#">Protector-2</a></li>
+                  <li><a href="#">Protector-3</a></li>
+                  <li><a href="#">Protector-1</a></li>
+                  <li><a href="#">Protector-2</a></li>
+                  <li><a href="#">Protector-3</a></li>
                 </ul>
           </li>
 
@@ -197,12 +197,12 @@ const Header = () => {
 
           <li><Link href="/"><a> WORKSHOP</a></Link>
           <ul>
-                  <li><a href="/">Tire Repair</a></li>
-                  <li><a href="/">Handle Repair</a></li>
-                  <li><a href="/">Full Cycle Repair</a></li>
-                  <li><a href="/">Tire Repair</a></li>
-                  <li><a href="/">Handle Repair</a></li>
-                  <li><a href="/">Full Cycle Repair</a></li>
+                  <li><a href="#">Tire Repair</a></li>
+                  <li><a href="#">Handle Repair</a></li>
+                  <li><a href="#">Full Cycle Repair</a></li>
+                  <li><a href="#">Tire Repair</a></li>
+                  <li><a href="#">Handle Repair</a></li>
+                  <li><a href="#">Full Cycle Repair</a></li>
                 </ul>
           </li>
           
