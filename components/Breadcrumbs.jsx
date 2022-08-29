@@ -40,14 +40,14 @@ export default function IconBreadcrumbs(props) {
           underline="hover"
           sx={{ display: 'flex', alignItems: 'center' }}
           color="inherit"
-          href="/blogs"
+          href={props.link}
         ><a>
-         <Button startIcon={<NoteAltIcon/>}>BLOGS</Button>
+         <Button >{props.topic}</Button>
           </a>
         </Link>
         <Typography
           sx={{ display: 'flex', alignItems: 'center' }}
-          color="text.primary"
+          color="text.secondary"
         >
           {props.slug}
         </Typography>

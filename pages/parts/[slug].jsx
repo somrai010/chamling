@@ -1,5 +1,6 @@
 
 import { createClient } from 'contentful'
+import Breadcrumbs from '../../components/Breadcrumbs';
 
 import Template from '../../components/template/Template'
 
@@ -64,8 +65,10 @@ export default function Post({article}) {
 return (
 <div className={styles.product}>
 
-  
+
 <Template>
+<Breadcrumbs topic='PARTS' link='/parts' slug={article.fields.slug}/>
+
 <Productdetailcart product={article}/>
 </Template>        
      
