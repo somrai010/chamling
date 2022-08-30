@@ -1,6 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from './sass/footer.module.scss';
+import {ImLocation2} from 'react-icons/im';
+import {SiWhatsapp} from 'react-icons/si';
+import {SiViber} from 'react-icons/si';
+import {SiGmail} from 'react-icons/si'
 
 export default function Footer() {
     return (
@@ -25,10 +29,16 @@ export default function Footer() {
                 <Link href='https://www.tiktok.com/@chamlingcycle'><a>Tiktok</a></Link> <br/>  
                 </div>
                 <div className={styles.subscribe}>
-<h2>JOIN US!</h2>
+{/* <h2>JOIN US!</h2>
 <input type='text' placeholder='Your Name' /><br/>
 <input type='email' placeholder= 'Your Email'/><br/>
-<button>Send</button>
+<button>Send</button> */}
+
+
+<p><span><ImLocation2/></span> Location: Lakeside, Pokhara</p>
+<p><span><SiWhatsapp/></span> +977-981-7172160</p>
+<p><span><SiViber/></span> +977-981-7172160</p>
+<p><span><SiGmail/></span> chamlingcycle@gmail.com</p>
                 </div>
             </div>
         </div>

@@ -52,6 +52,15 @@
         }
     }
     .subscribe {
+        color:rgb(54, 74, 134);
+        p {
+            font-family: 'Tapestry', cursive;
+            margin-top: 0px;
+            span {
+                position: relative;
+                top:3px;
+            }
+        }
         h2 {
             font-size: 30px;
             margin:0px;

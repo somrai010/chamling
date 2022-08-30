@@ -78,7 +78,7 @@ const Header = () => {
                 <a href="#" className="desktop-link">XC Bikes</a>
               </li>
               <li>
-                <a href="#" className="desktop-link">Endu Bikes</a>
+                <a href="#" className="desktop-link">Endur Bikes</a>
               </li>
               <li>
                 <a href="#" className="desktop-link">BMX Bikes</a>

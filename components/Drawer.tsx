@@ -40,7 +40,7 @@ const DrawerComp = () => {
 {/* <hr/> */}
             <ListItemButton>
               <ListItemIcon>
-                <ListItemText><Link href='/contact'><a>Contact Us</a></Link></ListItemText>
+                <ListItemText><Link href='/about'><a>About Us</a></Link></ListItemText>
               </ListItemIcon>
             </ListItemButton>
 

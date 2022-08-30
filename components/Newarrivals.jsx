@@ -9,7 +9,7 @@ export default function Rarezone() {
             <div className={styles.specialproduct}>
 
 
-<img src='/cycle.jpg' alt='special product'/>
+<img src='/newarrival.jpg' alt='special product'/>
 <div className={styles.des}>
  
     {/* <h2>Road Master 5544</h2>
