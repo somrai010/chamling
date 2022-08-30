@@ -19,11 +19,11 @@ export default function Navdetails() {
 </div>
 
 <div>
-  <Link href='/'><a><FaFacebookF/></a></Link>
-  <Link href='/'><a><FaInstagram/></a></Link>
-  <Link href='/'><a><AiOutlineYoutube/></a></Link>
-  <Link href='/'><a><FaTiktok/></a></Link>
-  <Link href='/'><a><BsTwitter/></a></Link>
+  <Link href='https://www.facebook.com/chamlingcycle'><a><FaFacebookF/></a></Link>
+  <Link href='https://www.instagram.com/chamlingcycle'><a><FaInstagram/></a></Link>
+  <Link href='https://www.youtube.com/channel/UCc4eM7i4KW-e3qFf3_38etw'><a><AiOutlineYoutube/></a></Link>
+  <Link href='https://www.tiktok.com/@chamlingcycle'><a><FaTiktok/></a></Link>
+  <Link href='https://twitter.com/ChamlingCycle'><a><BsTwitter/></a></Link>
 </div>
     </div>
   )
