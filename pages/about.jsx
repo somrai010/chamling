@@ -11,7 +11,7 @@ export default function About() {
 
 <Head>
         <title>About us Chamling Cycle Pokhara</title>
-        <meta name="description" content="Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012" />
+        <meta name="description" content="Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store giving much betcustomers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs." />
         <link rel="icon" href="/logo.jpg" />
 
 
@@ -24,7 +24,7 @@ export default function About() {
     
     <div className={styles.aboutc}>
 
-        <p>Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store giving much betcustomers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in al sectors.</p>
+        <p>Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store giving much better service to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in al sectors.</p>
     </div>
     
     </Template>  
