@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 <title>Chamling Cycle Pokhara | The Bike Shop Nepal</title>
 <meta name="description" content="Chamling cycle is one of the best cycle shop of pokhara lakeside" />
 <link rel="icon" href="/logo.jpg" />
-<meta property="og:image" content='/1.jpg' />
+<meta property="og:image" content='/slide/1.jpg' />
   </Head>
 
 <CartProvider>
