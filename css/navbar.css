@@ -3,7 +3,7 @@
 
 .wrapper{
   background: #ffffff;
-  position: fixed;
+  position: relative;
   width: 100%;
   color:black;
 }
@@ -32,8 +32,9 @@ nav .content .links{
   display: flex;
 }
 .content .logo img {
-    width:150px;
-    height:80px;
+    width:140px;
+    height:90px;
+    object-fit: cover;
 }
 
 .content .links li{

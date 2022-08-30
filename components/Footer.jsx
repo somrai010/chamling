@@ -18,10 +18,11 @@ export default function Footer() {
 
                 </div>
                 <div className={styles.social}>
-                <Link href='#' className={styles.flinks}><a>Facebook</a></Link> <br/><br/>
-                <Link href='#'><a>Instagram</a></Link> <br/><br/>
-                <Link href='#'><a>YouTube</a></Link> <br/><br/>
-                <Link href='#'><a>Twitter</a></Link> <br/>  
+                <Link href='https://www.facebook.com/chamlingcycle' className={styles.flinks}><a>Facebook</a></Link> <br/><br/>
+                <Link href='https://www.instagram.com/chamlingcycle/'><a>Instagram</a></Link> <br/><br/>
+                <Link href='https://www.youtube.com/channel/UCc4eM7i4KW-e3qFf3_38etw'><a>YouTube</a></Link> <br/><br/>
+                <Link href='https://twitter.com/ChamlingCycle'><a>Twitter</a></Link> <br/>  <br/>
+                <Link href='https://www.tiktok.com/@chamlingcycle'><a>Tiktok</a></Link> <br/>  
                 </div>
                 <div className={styles.subscribe}>
 <h2>JOIN US!</h2>

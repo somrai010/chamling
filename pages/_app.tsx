@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return( 
   <>
   <Head>
-<title>Chamling Cycles</title>
+<title>Chamling Cycle Pokhara | The Bike Shop Nepal</title>
   </Head>
 
 <CartProvider>

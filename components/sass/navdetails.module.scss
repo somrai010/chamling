@@ -1,0 +1,15 @@
+.navdetails {
+    width:100%;
+    height:auto;
+    background-color: rgb(231, 119, 15);
+    display:grid;
+    grid-template-columns: 60% 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    p {
+        margin:0px;
+        padding:0px;
+        font-family: 'Tapestry', cursive;
+        color:white;
+    }
+}

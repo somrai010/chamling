@@ -48,16 +48,14 @@ const Header = () => {
 
 
     <nav>
-      <input type="checkbox" id="show-search"/>
-      <input type="checkbox" id="show-menu"/>
-      <label htmlFor="show-menu" className="menu-icon"><i className="fas fa-bars"></i></label>
+    
       <div className="content">
       <div className="logo">
       <Link href="/"><a ><img src='/logo.jpg' alt='logo' className={styles.logo}/></a></Link>
       </div>
         <ul className="links">
 
-        <li><Link href="/"><a>ABOUT</a></Link></li>
+        <li><Link href="/about"><a>ABOUT</a></Link></li>
        
           <li>
             <Link href="#"><a  className="desktop-link">CYCLES</a></Link>
@@ -144,9 +142,21 @@ const Header = () => {
           <li><Link href="/parts"><a>PARTS</a></Link>
           
           <ul>
-                  <li><a href="#">Part-1</a></li>
-                  <li><a href="#">Part-2</a></li>
-                  <li><a href="#">Part-3</a></li>
+                  <li><a href="#">Handlebars And Stem</a></li>
+                  <li><a href="#">Saddle And Seatpost</a></li>
+                  <li><a href="#">Crankset And Toolbar</a></li>
+                  <li><Link href="/"><a>Chain And Cassette</a></Link></li>
+                  <li><Link href="/"><a>Chain And Cassette</a></Link></li>
+                  <li><Link href="/"><a>Rearderailuer And Hanger</a></Link></li>
+                  <li><Link href="/"><a>Chain And Cassette</a></Link></li>
+                  <li><Link href="/"><a>Shifters And Grips</a></Link></li>
+                  <li><Link href="/"><a>Front Derailleur</a></Link></li>
+                  <li><Link href="/"><a>Seatpost Clamp</a></Link></li>
+                  <li><Link href="/"><a>Hub Tire</a></Link></li>
+                  <li><Link href="/"><a>Cycle Tubes</a></Link></li>
+                  <li><Link href="/"><a>Spokes Suspension</a></Link></li>
+                  <li><Link href="/"><a>Brake Lever</a></Link></li>
+                 
                 </ul>
           
           </li>
@@ -154,12 +164,16 @@ const Header = () => {
 
           <li><Link href="/"><a>ACCESSORIES</a></Link>
           <ul>
-                  <li><a href="#">Acce-1</a></li>
-                  <li><a href="#">Acce-2</a></li>
-                  <li><a href="#">Accce-3</a></li>
-                  <li><a href="#">Acce-1</a></li>
-                  <li><a href="#">Acce-2</a></li>
-                  <li><a href="#">Accce-3</a></li>
+                  <li><Link href="/"><a>Pump & Light</a></Link></li>
+                  <li><Link href="/"><a>Helmets</a></Link></li>
+                  <li><Link href="/"><a>Bells</a></Link></li>
+                  <li><Link href="/"><a>Tools</a></Link></li>
+                  <li><Link href="/"><a>Bag</a></Link></li>
+                  <li><Link href="/"><a>Glove</a></Link></li>
+                  <li><Link href="/"><a>Mudguard & Bottle</a></Link></li>
+                  <li><Link href="/"><a>Bottle Holder</a></Link></li>
+                  <li><Link href="/"><a>Sunglasses</a></Link></li>
+                  <li><Link href="/"><a>Phone Holders</a></Link></li>
                   
                 </ul>
           
@@ -169,12 +183,15 @@ const Header = () => {
           <li><Link href="/"><a>APPARELS</a></Link>
           
           <ul>
-                  <li><a href="#">App-1</a></li>
-                  <li><a href="#">App-2</a></li>
-                  <li><a href="#">App-3</a></li>
-                  <li><a href="#">App-1</a></li>
-                  <li><a href="#">App-2</a></li>
-                  <li><a href="#">App-3</a></li>
+          <li><Link href="/"><a>Jersey</a></Link></li>
+          <li><Link href="/"><a>Jackets</a></Link></li>
+          <li><Link href="/"><a>Pants</a></Link></li>
+          <li><Link href="/"><a>Gloves</a></Link></li>
+          <li><Link href="/"><a>Shoes</a></Link></li>
+          <li><Link href="/"><a>Socks</a></Link></li>
+          <li><Link href="/"><a>Headbands</a></Link></li>
+          <li><Link href="/"><a>T-Shirts</a></Link></li>
+
                 </ul>
           
           </li>
@@ -184,12 +201,12 @@ const Header = () => {
           <li><Link href="/"><a> PROTECTORS</a></Link>
           
           <ul>
-                  <li><a href="#">Protector-1</a></li>
-                  <li><a href="#">Protector-2</a></li>
-                  <li><a href="#">Protector-3</a></li>
-                  <li><a href="#">Protector-1</a></li>
-                  <li><a href="#">Protector-2</a></li>
-                  <li><a href="#">Protector-3</a></li>
+          <li><Link href="/"><a>Helmets</a></Link></li>
+          <li><Link href="/"><a>Knee/Elbo Pads</a></Link></li>
+          <li><Link href="/"><a>SunGlasses</a></Link></li>
+          <li><Link href="/"><a>Body Armour</a></Link></li>
+       
+
                 </ul>
           </li>
 
@@ -197,12 +214,11 @@ const Header = () => {
 
           <li><Link href="/"><a> WORKSHOP</a></Link>
           <ul>
-                  <li><a href="#">Tire Repair</a></li>
-                  <li><a href="#">Handle Repair</a></li>
-                  <li><a href="#">Full Cycle Repair</a></li>
-                  <li><a href="#">Tire Repair</a></li>
-                  <li><a href="#">Handle Repair</a></li>
-                  <li><a href="#">Full Cycle Repair</a></li>
+          <li><Link href="/"><a>Bike Clean</a></Link></li>
+          <li><Link href="/"><a>Basic Service</a></Link></li>
+          <li><Link href="/"><a>Full Service</a></Link></li>
+          <li><Link href="/"><a>Suspension Service</a></Link></li>
+          <li><Link href="/"><a>Rim Build</a></Link></li>
                 </ul>
           </li>
           
