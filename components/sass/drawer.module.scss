@@ -13,14 +13,37 @@
     }
 }
 
-.toggler {
+// .toggler {
   
-    position: absolute;
-    right:20px;
-    top:30px;
+//     position: absolute;
+//     right:20px;
+//     top:30px;
  
+// }
+
+.mview {
+    
+    display: grid;
+    grid-template-columns: 85% 15%;
+    width:100%;
+    height:100px;
+
+    .logo {
+        img {
+
+        width:140px;
+        height:90px;
+        object-fit: cover;
+        }
+    }
+
+    .dcontainer {
+        .toggler {
+            position: relative;
+            right:0;
+            top:30px;
+        }
+    }
 }
-
-
 
 

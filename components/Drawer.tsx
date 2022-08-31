@@ -21,12 +21,15 @@ const DrawerComp = () => {
 
   return (
     <React.Fragment>
-      <div className="logo"><Link href='/'><a ><img src='/logo.jpg' alt='logo' /></a></Link></div>
+<div className={styles.mview}>
 
-<div >
+
+ <div className={styles.logo}><Link href='/'><a ><img src='/logo.jpg' alt='logo' /></a></Link></div>
+
+<div className={styles.dcontainer}>
       <Drawer
       className={styles.drawer}
-        anchor="left"
+       
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
         PaperProps={{
@@ -106,7 +109,7 @@ const DrawerComp = () => {
 
 
       </div>
-
+  </div>
     </React.Fragment>
   );
 };
