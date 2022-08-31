@@ -44,18 +44,64 @@ const DrawerComp = () => {
               </ListItemIcon>
             </ListItemButton>
 
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Cycles</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
 
 
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Tours</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
 
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Parts</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
+
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Accessories</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
+
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Apparels</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
+
+
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Protectors</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
+
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Workshop</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
+
+            <ListItemButton>
+              <ListItemIcon>
+                <ListItemText><Link href='/'><a>Blogs</a></Link></ListItemText>
+              </ListItemIcon>
+            </ListItemButton>
 
         </List>
       </Drawer>
       <IconButton
-        sx={{ color: "black", marginLeft: "auto" , fontSize:'large',}}
+        sx={{ color: "black", fontSize:'large',}}
         onClick={() => setOpenDrawer(!openDrawer)}
         className={styles.toggler}
       >
-        <MenuIcon sx={{ transform: "scale(1.4)", float: 'right', right: "0px" }}/>
+        <MenuIcon sx={{ transform: "scale(1.4)"}}/>
       </IconButton>
 
 
