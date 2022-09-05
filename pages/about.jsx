@@ -24,7 +24,7 @@ export default function About() {
     
     <div className={styles.aboutc}>
 
-        <p>Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store is giving much better service to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in al sectors.</p>
+        <p>The bike shop in Pokhara, Nepal. Chamling Company's Running Adventures Cycling Tours / Trips. Aslo MTB Rides, Sale, Rental & Bicycles Maintenance. And giving much better services to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in all sectors.</p>
     </div>
     
     </Template>  
