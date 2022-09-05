@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   <>
   <Head>
 <title>Cycle Tour in Nepal | Mountain Bike in Pokhara</title>
-<meta name="description" content="Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store giving much betcustomers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs." />
+<meta name="description" content="Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store is giving much better service to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in al sectors." />
 <link rel="icon" href="/logo.jpg" />
 <meta property="og:image" content='/slide/6.jpg' />
   </Head>
