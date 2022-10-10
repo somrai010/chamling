@@ -17,10 +17,11 @@ export default function Index() {
   return (
     <div>
 <Head>
-    <title>Bamdi Short Cycling Tour</title>
-    <meta name="description" content="Chamling Cycle Shop is located in Pokhrara. Which is hub of Adventures Expedition. Since 2012 Chamling Store is giving much better service to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in al sectors." />
+    <title>Bamdi Short Cycling Day Tour</title>
+    <meta name="description" content="Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m." />
+    <meta name='keyword' content='bamdi short cycling day tour, bamdi cycle tour, cycle tour to bamdi, cycle tour pokhara to bamdi' />
     <link rel="icon" href="/logo.jpg" />
-    <meta property="og:image" content='/slide/6.jpg' />
+    <meta property="og:image" content='/tours/bamdi1.jpg' />
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
