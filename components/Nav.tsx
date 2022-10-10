@@ -68,7 +68,7 @@ const Header = () => {
                 <a href="#" className="desktop-link">Pokhara Day Biking Tours</a>
                <ul>
                <li>
-                <a href="#" className="desktop-link">Bamdi Short Cycling Tour </a>
+                <Link href="/daytour/bamdi-short-cycling-tour" ><a className="desktop-link">Bamdi Short Cycling Tour </a></Link>
               </li>
 
               <li>
