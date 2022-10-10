@@ -88,7 +88,7 @@ Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances
     <h5><span><BsFillTelephoneFill/></span> +977- 9817172160</h5>
     <h5><span><MdEmail/></span> chamlingcycle@gmail.com</h5>
   </div>
-<a href='https://www.tripadvisor.com/Attraction_Review-g293891-d7907590-Reviews-Chamling_Cycle_Pvt_Ltd-Pokhara_Gandaki_Zone_Western_Region.html' target="_blank">
+<a href='https://www.tripadvisor.com/Attraction_Review-g293891-d7907590-Reviews-Chamling_Cycle_Pvt_Ltd-Pokhara_Gandaki_Zone_Western_Region.html' target="_blank" rel="noreferrer">
   <div className={styles.contact}>
     
    <h2><FaTripadvisor/></h2>
