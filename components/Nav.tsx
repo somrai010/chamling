@@ -68,15 +68,19 @@ const Header = () => {
                 <a href="#" className="desktop-link">Pokhara Day Biking Tours</a>
                <ul>
                <li>
-                <a href="#" className="desktop-link">2 Days Pokhara to Begnas Lake </a>
+                <a href="#" className="desktop-link">Bamdi Short Cycling Tour </a>
               </li>
 
               <li>
-                <a href="#" className="desktop-link">2 Days Dhampus to Australian Camp </a>
+                <a href="#" className="desktop-link">Biking Around the Phewa Lake </a>
               </li>
 
               <li>
-                <a href="#" className="desktop-link">3 Days Panchase to Matikhan  </a>
+                <a href="#" className="desktop-link">Sarangkot Bike Tour </a>
+              </li>
+
+              <li>
+                <a href="#" className="desktop-link">Biking Tour at Mathikhan </a>
               </li>
               
 

@@ -151,7 +151,7 @@ nav .content .links{
   position: absolute;
   
   min-width: 250px;
-  right:calc(-100% - 5px);
+  right:calc(-100% + 5px);
 
  
 
