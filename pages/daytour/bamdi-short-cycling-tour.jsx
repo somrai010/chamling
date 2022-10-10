@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
+
 import Nav from '../../components/Nav';
 import Navdetails from '../../components/Navdetails';
 import Footer from '../../components/Footer';
@@ -10,7 +12,8 @@ import {FaLongArrowAltRight} from 'react-icons/fa';
 import {BsFillTelephoneFill} from 'react-icons/bs';
 import {GoPerson} from 'react-icons/go';
 import {MdOutgoingMail} from 'react-icons/md';
-import {MdEmail} from 'react-icons/md'
+import {MdEmail} from 'react-icons/md';
+import {FaTripadvisor} from 'react-icons/fa';
 
 
 export default function Index() {
@@ -54,16 +57,44 @@ Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances
     </ul>
 </div>
 
-<img src='/tours/bamdi1.jpg' alt='adventure photo'/>
-   <img src='/tours/bamdi2.jpg' alt='adventure photo'/>
+<div className={styles.images}>
+  
+<Image src="/tours/bamdi1.jpg" alt='adventure photo' 
+     
+     layout='fill'
+      />
+
+
+  
+  </div>
+  <div className={styles.images}>
+  
+
+  
+  
+  <Image src='/tours/bamdi2.jpg' alt='adventure photo' 
+   layout='fill'
+    />
+    
+    </div>
+
+
+
 </div>
 <div className={styles.contacts}>
   <div className={styles.contact}>
     <h4>For The Best Package Price:</h4>
-    <h5><span><GoPerson/></span> Som Rai</h5>
+    {/* <h5><span><GoPerson/></span> Som Rai</h5> */}
     <h5><span><BsFillTelephoneFill/></span> +977- 9817172160</h5>
-    <h5><span><MdEmail/></span> somrai010@gmail.com</h5>
+    <h5><span><MdEmail/></span> chamlingcycle@gmail.com</h5>
   </div>
+<a href='https://www.tripadvisor.com/Attraction_Review-g293891-d7907590-Reviews-Chamling_Cycle_Pvt_Ltd-Pokhara_Gandaki_Zone_Western_Region.html' target="_blank">
+  <div className={styles.contact}>
+    
+   <h2><FaTripadvisor/></h2>
+   <h2>Tripadvisor</h2>
+  </div>
+  </a>
 </div>
     </div>
 </div>
