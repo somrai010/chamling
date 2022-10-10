@@ -57,6 +57,81 @@ const Header = () => {
 
         <li><Link href="/about"><a>ABOUT</a></Link></li>
        
+
+
+        <li>
+            <Link href="#"><a  className="desktop-link">TOURS</a></Link>
+          
+         
+            <ul>
+              <li>
+                <a href="#" className="desktop-link">Pokhara Day Biking Tours</a>
+               <ul>
+               <li>
+                <a href="#" className="desktop-link">2 Days Pokhara to Begnas Lake </a>
+              </li>
+
+              <li>
+                <a href="#" className="desktop-link">2 Days Dhampus to Australian Camp </a>
+              </li>
+
+              <li>
+                <a href="#" className="desktop-link">3 Days Panchase to Matikhan  </a>
+              </li>
+              
+
+
+
+
+
+
+               </ul>
+           
+              </li>
+
+              <li>
+                <a href="#" className="desktop-link">Pokhara Multi Days Biking Tours</a>
+
+                <ul>
+                  <li>
+                  <a href="#" className="desktop-link"> 2 Days Pokhara to Begnas Lake </a>
+                  </li>
+
+                  <li>
+                  <a href="#" className="desktop-link"> 2 Days Dhampus to Australian Camp </a>
+                  </li>
+
+                  <li>
+                  <a href="#" className="desktop-link"> 3 Days Panchase to Matikhan  </a>
+                  </li>
+
+
+
+                </ul>
+              </li>
+
+              <li>
+                <a href="#" className="desktop-link">Pokhara Explore Biking Tours</a>
+              </li>
+              <li>
+                <a href="#" className="desktop-link">Jomsom to Muktinath Biking Tours</a>
+              </li>
+              <li>
+                <a href="#" className="desktop-link">Annapurna Circuit Biking Tours</a>
+              </li>
+              <li>
+                <a href="#" className="desktop-link">Upper Mustang Biking Tours</a>
+              </li>
+
+            
+            
+
+            </ul>
+          </li>
+
+
+
+
           <li>
             <Link href="#"><a  className="desktop-link">CYCLES</a></Link>
           
@@ -71,6 +146,13 @@ const Header = () => {
                   <li><a href="/projects/equality">sfsfsfs</a></li>
                 </ul>
               </li> */}
+
+
+
+
+
+
+              
               <li>
                 <a href="#" className="desktop-link">Road Bikes</a>
               </li>
@@ -110,33 +192,7 @@ const Header = () => {
 
 
 
-          <li>
-            <Link href="#"><a  className="desktop-link">TOURS</a></Link>
-          
-         
-            <ul>
-              <li>
-                <a href="#" className="desktop-link">Pokhara Day Tours</a>
-               
-           
-              </li>
-              <li>
-                <a href="#" className="desktop-link">Mustang Tours</a>
-              </li>
-              <li>
-                <a href="#" className="desktop-link">Pokhara Multi Days Tours</a>
-              </li>
-              <li>
-                <a href="#" className="desktop-link">Classic Tours</a>
-              </li>
-              <li>
-                <a href="#" className="desktop-link">Multi Adventures Tours</a>
-              </li>
-
-            
-
-            </ul>
-          </li>
+       
 
 
           <li><Link href="/parts"><a>PARTS</a></Link>
