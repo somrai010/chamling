@@ -20,9 +20,9 @@ export default function Index() {
     <title>Bamdi Short Cycling Day Tour</title>
     <meta name="description" content="Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m." />
     <meta name='keyword' content='bamdi short cycling day tour, bamdi cycle tour, cycle tour to bamdi, cycle tour pokhara to bamdi' />
-    <link rel="icon" href="/logo.jpg" />
+   
     <meta property="og:image" content='/tours/bamdi1.jpg' />
-
+    <link rel="icon" href="/logo.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
