@@ -75,23 +75,14 @@ const Header = () => {
                 <Link href="/daytour/biking-around-the-phewa-lake" ><a className="desktop-link">Biking Around The Phewa Lake </a></Link>
               </li>
 
-              {/* <li>
-               <Link href="/daytour/biking-around-the-phewa-lake"> <a className="desktop-link">Biking Around the Phewa Lake </a></Link>
-              </li> */}
-
               <li>
-                <a href="#" className="desktop-link">Sarangkot Bike Tour </a>
+                <Link href="/daytour/sarangkot-bike-tour" ><a className="desktop-link">Sarangkot Bike Tour </a></Link>
               </li>
 
               <li>
-                <a href="#" className="desktop-link">Biking Tour at Mathikhan </a>
+                <Link href="/daytour/biking-tour-mathikhan" ><a className="desktop-link">Biking tour at mathikhan </a></Link>
               </li>
-              
-
-
-
-
-
+            
 
                </ul>
            
