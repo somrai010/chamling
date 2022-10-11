@@ -60,7 +60,7 @@ const [multidaytour,setMultidaytour]=useState(false);
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
         PaperProps={{
-            sx: { width: "90%",padding:"20px",backgroundColor:"rgb(27,27,27)"
+            sx: { width: "80%",padding:"20px",backgroundColor:"rgb(27,27,27)"
           },
           }}
       >
@@ -99,15 +99,15 @@ const [multidaytour,setMultidaytour]=useState(false);
 
                 {multidaytour &&<ul>
                   <li>
-                  <a href="#" className="desktop-link"> 2 Days Pokhara to Begnas Lake </a>
+                  <Link href='/multiday/two-day-pokhara-to-begnas'><a className="desktop-link"> 2 Days Pokhara to Begnas Lake </a></Link>
                   </li>
 
                   <li>
-                  <a href="#" className="desktop-link"> 2 Days Dhampus to Australian Camp </a>
+                  <Link href="/multiday/two-day-dhampus-to-australian-camp"><a  className="desktop-link"> 2 Days Dhampus to Australian Camp </a></Link>
                   </li>
 
                   <li>
-                  <a href="#" className="desktop-link"> 3 Days Panchase to Matikhan  </a>
+                  <Link href="/multiday/panchase-to-muktinath-tour"></Link><a className="desktop-link"> 3 Days Panchase to Matikhan  </a>
                   </li>
 
 
