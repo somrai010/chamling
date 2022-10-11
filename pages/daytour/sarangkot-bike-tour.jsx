@@ -22,7 +22,7 @@ export default function Index() {
     <div>
 <Head>
     <title>Sarangkot Bike tour</title>
-    <meta name="description" content="Sarangkot is opposite of Pumdi Bhimdi trail. Sarangkot has long beauty of history. Sarangkot mostly famous in Sunrise view point and Paragliding Take off. It's elevation is 1400m, Total 35 km. Average duration 5 hours." />
+    <meta name="description" content="Sarangkot is opposite of Pumdi Bhimdi trail. Sarangkot has long beauty of history. Sarangkot mostly famous in Sunrise view point and Paragliding Take off. It&apos;s elevation is 1400m, Total 35 km. Average duration 5 hours." />
     <meta name='keywords' content="sarangkot bike tour, pokhara to sarangkot bike tour" />
    
     <meta property="og:image" content="/tours/sarangkot.jpg" />
@@ -45,7 +45,7 @@ export default function Index() {
 <h1>Sarangkot Bike Tour</h1>
 <p>A perfect day tour in Pokhara for adventure lovers!</p>
 <p>
-Sarangkot is opposite of Pumdi Bhimdi trail. Sarangkot has long beauty of history. Sarangkot mostly famous in Sunrise view point and Paragliding Take off. It's elevation is 1400m, Total 35 km. Average duration 5 hours.
+Sarangkot is opposite of Pumdi Bhimdi trail. Sarangkot has long beauty of history. Sarangkot mostly famous in Sunrise view point and Paragliding Take off. It&apos;s elevation is 1400m, Total 35 km. Average duration 5 hours.
 </p>
     </div>
     <div className={styles.body}>

@@ -22,7 +22,7 @@ export default function Index() {
     <div>
 <Head>
     <title>Biking Tour At Mathikhan</title>
-    <meta name="description" content="Matikhan is the next district near by Pokhara. It's quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
+    <meta name="description" content="Matikhan is the next district near by Pokhara. It&apos;s quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
 Total distance is 35km, Elevation 1200 m and Average duration is 6 hours" />
     <meta name='keywords' content="biking tour at mathikhan, mathikhan biking tour provider" />
    
@@ -46,7 +46,7 @@ Total distance is 35km, Elevation 1200 m and Average duration is 6 hours" />
 <h1>Biking Tour At Mathikhan</h1>
 <p>A perfect day tour in Pokhara for adventure lovers!</p>
 <p>
-Matikhan is the next district near by Pokhara. It's quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
+Matikhan is the next district near by Pokhara. It&apos;s quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
 Total distance is 35km, Elevation 1200 m and Average duration is 6 hours
 </p>
     </div>
