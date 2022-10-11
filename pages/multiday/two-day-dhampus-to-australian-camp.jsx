@@ -23,7 +23,7 @@ export default function Index() {
 <Head>
     <title>Dhampus to Australian Camp Cycling tour for 2 days</title>
     <meta name="description" content="
-Dhampus and Australia camp both distinaton are near each other and complete with beauty natures. From Australia camp Annapurna and Dhaulagiri Himalayas range can seen likes close to you and little cold place than Pokhara. It's Altitude is 1800m and Total distances 70 km. " />
+Dhampus and Australia camp both distinaton are near each other and complete with beauty natures. From Australia camp Annapurna and Dhaulagiri Himalayas range can seen likes close to you and little cold place than Pokhara. It&apos;s Altitude is 1800m and Total distances 70 km. " />
     <meta name='keywords' content="dhampus to australian camp cycle tour, dhampus to australian camp tour" />
    
     <meta property="og:image" content="/tours/dhampus1.jpg" />
@@ -47,7 +47,7 @@ Dhampus and Australia camp both distinaton are near each other and complete with
 <p>A perfect tour in Pokhara for adventure lovers!</p>
 <p>
 
-Dhampus and Australia camp both distinaton are near each other and complete with beauty natures. From Australia camp Annapurna and Dhaulagiri Himalayas range can seen likes close to you and little cold place than Pokhara. It's Altitude is 1800m and Total distances 70 km.
+Dhampus and Australia camp both distinaton are near each other and complete with beauty natures. From Australia camp Annapurna and Dhaulagiri Himalayas range can seen likes close to you and little cold place than Pokhara. It&apos;s Altitude is 1800m and Total distances 70 km.
 </p>
     </div>
     <div className={styles.body}>
@@ -57,7 +57,7 @@ Dhampus and Australia camp both distinaton are near each other and complete with
     <h4>Itineraries</h4>
     <ul>
         <li><span><FaLongArrowAltRight/></span>
-        Day first, 9 am start pedal to Hemjaa on road an 11 km and Hemja to Astam to Dhampus up..up. 18 km. And lunch at Dhampus and then hike an hour's to Australian Camp and stay 1 night there.
+        Day first, 9 am start pedal to Hemjaa on road an 11 km and Hemja to Astam to Dhampus up..up. 18 km. And lunch at Dhampus and then hike an hour&apos;s to Australian Camp and stay 1 night there.
         </li>
     <li><span><FaLongArrowAltRight/></span>
     Day 2, after the brakefast we start at 8 am for down hill 5 km to Phedi and Phedi Sarangkot climb up hills and have lunch at the Sarangkot And again head down to Chankhapur about 10 km and easy flat an hour Pedal up to the bike shop. 
