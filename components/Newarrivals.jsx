@@ -8,8 +8,10 @@ export default function Rarezone() {
         <div className={styles.new}>
             <div className={styles.specialproduct}>
 
-
-<img src='/newarrival.jpg' alt='special product'/>
+<div className={styles.image}>
+{/* <img src='/newarrival.jpg' alt='special product' loading='lazy'/> */}
+<Image src='/newarrival.jpg' alt='special product' layout='fill'/>
+</div>
 <div className={styles.des}>
  
     {/* <h2>Road Master 5544</h2>

@@ -191,9 +191,11 @@ p {
         font-size: 1.5rem;
         font-family: c.$defaultfont;
         color:rgb(114, 92, 92);
+        font-size: 15px;
         span {
             position: relative;
             top:3px;
+            transition: all 0.3s linear 0s;
         }
     }
             }
