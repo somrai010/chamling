@@ -125,6 +125,13 @@ h2 {
     font-weight: 900;
     margin:10px;
     font-family: c.$defaultfont;
+    strong {
+        color:rgb(151, 151, 189);
+    }
+}
+p {
+    text-align: center;
+    font-family: c.$cutefont;
 }
         }
     }

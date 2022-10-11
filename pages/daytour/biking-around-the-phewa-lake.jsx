@@ -17,15 +17,16 @@ import {FaTripadvisor} from 'react-icons/fa';
 import { Rating } from '@mui/material';
 
 
+
 export default function Index() {
   return (
     <div>
 <Head>
-    <title>Bamdi Short Cycling Day Tour</title>
-    <meta name="description" content="Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m." />
-    <meta name='keywords' content="bamdi short cycling day tour, bamdi cycle tour, cycle tour to bamdi, cycle tour pokhara to bamdi" />
+    <title>Biking Around The Phewa Lake</title>
+    <meta name="description" content="Around the Phewa Lake Cycling Tour is most beautiful ride and adventure. From the top of Pumdi. From there visible Himalayas, Phewa Lake, Sarangkot and Pokhara City. Elevation is 1200m. Total distance 30km and average duration is 5 hours ride." />
+    <meta name='keywords' content="biking around the phewa lake, phewa lake tour, phewa lake biking tour provider" />
    
-    <meta property="og:image" content="/tours/bamdi1.jpg" />
+    <meta property="og:image" content="/tours/phewa1.jpg" />
     <link rel="icon" href="/logo.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -42,10 +43,13 @@ export default function Index() {
 </div>
 <div className={styles.container}>
     <div className={styles.heading}>
-<h1>Bamdi Short Cycling Day tour</h1>
+<h1> Biking Around the Phewa Lake</h1>
 <p>A perfect day tour in Pokhara for adventure lovers!</p>
 <p>
-Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m.</p>
+Around the Phewa Lake Cycling Tour is most beautiful ride and adventure. From the top of Pumdi. From there visible Himalayas, Phewa Lake, Sarangkot and Pokhara City. Elevation is 1200m. Total distance 30km and average duration is 5 hours ride.
+</p>
+    
+    
     </div>
     <div className={styles.body}>
 <div className={styles.contents}>
@@ -53,14 +57,14 @@ Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances
 <div className={styles.points}>
     <h4>Itineraries</h4>
     <ul>
-        <li><span><FaLongArrowAltRight/></span>Bike tour start 9 am from bike shop. After an hour ride, Guide stop for water brake about 10 minutes and again continue ride.</li>
-    <li><span><FaLongArrowAltRight/></span>And again an hour ride. Stop for photos shoot and rest. And then rest of an hour, ride till the bike store.</li>
+        <li><span><FaLongArrowAltRight/></span>The bike tour start at 9am. About an hour flat ride from Lakeside. We stop at Pame for rest and then Up..Up.</li>
+    <li><span><FaLongArrowAltRight/></span>After 6 km up hill ride. And then we reach top of the Pumdi. From Pumdi can see to the beauty of Pokhara valley. And then fun single track ride into to the jungle about 30 minutes and reach to Damside. Damside to Lakeside by easy pedaling.</li>
     </ul>
 </div>
 
 <div className={styles.images}>
   
-<Image src="/tours/bamdi1.jpg" alt='adventure photo' 
+<Image src="/tours/phewa3.jpg" alt='Phewa lake biking photo' 
      
      layout='fill'
       />
@@ -73,7 +77,7 @@ Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances
 
   
   
-  <Image src='/tours/bamdi2.jpg' alt='adventure photo' 
+  <Image src='/tours/phewa2.jpg' alt='Phewa lake biking photo' 
    layout='fill'
     />
     
@@ -96,6 +100,8 @@ Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances
    <h2>trip<strong>advisor</strong></h2>
    <h2><Rating name="read-only" value={4.5} readOnly precision={0.5}/></h2>
    <p>One Of The Best In Pokhara</p>
+
+   {/* <img src='/tours/tripadvisor.jpeg' alt='tripadvisor'/> */}
   </div>
   </a>
 </div>
