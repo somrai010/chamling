@@ -80,7 +80,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link href="/daytour/biking-tour-mathikhan" ><a className="desktop-link">Biking tour at mathikhan </a></Link>
+                <Link href="/daytour/biking-tour-matikhan" ><a className="desktop-link">Biking tour at matikhan </a></Link>
               </li>
             
 
@@ -101,7 +101,7 @@ const Header = () => {
                  </li>
                   
                  <li>
-                <Link href="/multiday/panchase-to-muktinath-tour" ><a className="desktop-link"> 3 Days Panchase to Matikhan</a></Link>
+                <Link href="/multiday/panchase-to-matikhan-tour" ><a className="desktop-link"> 3 Days Panchase to Matikhan</a></Link>
                  </li>
 
                  
@@ -117,10 +117,14 @@ const Header = () => {
                 <a href="#" className="desktop-link">Pokhara Explore Biking Tours</a>
               </li>
               <li>
-                <a href="#" className="desktop-link">Jomsom to Muktinath Biking Tours</a>
+                <Link href='/tours/jomsom-to-muktinath-tour'>
+                <a className="desktop-link">Jomsom to Muktinath Biking Tours</a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="desktop-link">Annapurna Circuit Biking Tours</a>
+                <Link href="/tours/annapurna-circuit-biking-tours">
+                <a  className="desktop-link">Annapurna Circuit Biking Tours</a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="desktop-link">Upper Mustang Biking Tours</a>

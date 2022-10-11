@@ -86,7 +86,7 @@ const [multidaytour,setMultidaytour]=useState(false);
               </li>
 
               <li>
-                <Link href="/daytour/biking-tour-mathikhan" ><a className="desktop-link">Biking tour at mathikhan </a></Link>
+                <Link href="/daytour/biking-tour-matikhan" ><a className="desktop-link">Biking tour at matikhan </a></Link>
               </li>
             
 
@@ -119,10 +119,14 @@ const [multidaytour,setMultidaytour]=useState(false);
                 <a href="#" className="desktop-link">Pokhara Explore Biking Tours</a>
               </li>
               <li>
-                <a href="#" className="desktop-link">Jomsom to Muktinath Biking Tours</a>
+              <Link href='/tours/jomsom-to-muktinath-tour'>
+                <a className="desktop-link">Jomsom to Muktinath Biking Tours</a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="desktop-link">Annapurna Circuit Biking Tours</a>
+              <Link href="/tours/annapurna-circuit-biking-tours">
+                <a  className="desktop-link">Annapurna Circuit Biking Tours</a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="desktop-link">Upper Mustang Biking Tours</a>

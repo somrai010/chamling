@@ -63,7 +63,8 @@ nav .content .links{
 .content .links li a:hover {
     color:blue;
     transition: all 0s linear 0s;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    box-shadow: 2px 2px 2px rgb(247, 244, 244);
  
 }
 
