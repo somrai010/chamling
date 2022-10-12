@@ -78,7 +78,7 @@ nav .content .links{
   background-color:rgb(255, 255, 255);
   color:black;
   top: 70px;
-  margin-left: 50px;
+  margin-left: 20px;
   z-index: -1;
   opacity: 0;
   visibility: hidden;

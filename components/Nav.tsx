@@ -114,7 +114,9 @@ const Header = () => {
               </li>
 
               <li>
-                <a href="#" className="desktop-link">Pokhara Explore Biking Tours</a>
+                <Link href="/tours/pokhara-explore-biking-tour">
+                <a  className="desktop-link">Pokhara Explore Biking Tours</a>
+                </Link>
               </li>
               <li>
                 <Link href='/tours/jomsom-to-muktinath-tour'>

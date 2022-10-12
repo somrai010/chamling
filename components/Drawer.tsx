@@ -107,7 +107,7 @@ const [multidaytour,setMultidaytour]=useState(false);
                   </li>
 
                   <li>
-                  <Link href="/multiday/panchase-to-muktinath-tour"></Link><a className="desktop-link"> 3 Days Panchase to Matikhan  </a>
+                  <Link href="/multiday/panchase-to-matikhan-tour"><a className="desktop-link"> 3 Days Panchase to Matikhan  </a></Link>
                   </li>
 
 
@@ -116,7 +116,9 @@ const [multidaytour,setMultidaytour]=useState(false);
               </li>
 
               <li>
-                <a href="#" className="desktop-link">Pokhara Explore Biking Tours</a>
+                <Link href="/tours/pokhara-explore-biking-tour">
+                <a  className="desktop-link">Pokhara Explore Biking Tours</a>
+                </Link>
               </li>
               <li>
               <Link href='/tours/jomsom-to-muktinath-tour'>
