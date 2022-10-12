@@ -129,8 +129,10 @@ const [multidaytour,setMultidaytour]=useState(false);
                 </Link>
               </li>
               <li>
-                <a href="#" className="desktop-link">Upper Mustang Biking Tours</a>
-              </li>
+              <Link href="/tours/upper-mustang-tour">
+                <a  className="desktop-link">Upper Mustang Biking Tours</a>
+                </Link>
+                </li>
 
             
             

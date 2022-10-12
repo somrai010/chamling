@@ -21,7 +21,7 @@ export default function Index() {
   return (
     <div>
 <Head>
-    <title>Upper Mustang Tour</title>
+    <title>Upper Mustang Biking Tour</title>
     <meta name="description" content="
 Upper Mustang is a restricted place to visit for foreigners so, they need a special permit to enter the
 forbidden kingdom. The riding trails are simply awesome with unique landscapes plus the mountains on
@@ -47,7 +47,7 @@ Manthang is unique on its own.
 </div>
 <div className={styles.container}>
     <div className={styles.heading}>
-<h1>Upper Mustang Tour</h1>
+<h1>Upper Mustang Biking Tour</h1>
 <p>A perfect tour in Pokhara for adventure lovers!</p>
 <p>
 
