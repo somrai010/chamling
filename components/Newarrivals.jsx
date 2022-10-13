@@ -5,36 +5,23 @@ import styles from './sass/newarrivals.module.scss';
 
 export default function Rarezone() {
     return (
+
+<div className={styles.newarrivals}>
+
+    <h2>New Arrivals</h2>
+
         <div className={styles.new}>
-            <div className={styles.specialproduct}>
+      
+<div className={styles.image}>
+
+<Image src='/newarrival1.jpg' alt='special product' layout='fill'/>
+</div>
 
 <div className={styles.image}>
-{/* <img src='/newarrival.jpg' alt='special product' loading='lazy'/> */}
-<Image src='/newarrival.jpg' alt='special product' layout='fill'/>
+
+<Image src='/newarrival2.jpg' alt='special product' layout='fill'/>
 </div>
-<div className={styles.des}>
- 
-    {/* <h2>Road Master 5544</h2>
-    <h3> Go green & go fast!</h3> */}
-   {/* <Link href='/'>
-       <a>
-       <button>Book Now</button>
-       </a>
-       </Link> */}
-
-
-
 </div>
-
-
-            </div>
-
-
-
-
-<div className={styles.newproducts}>
-<h2>New Arrivals</h2>
-            </div>
         </div>
     )
 }
