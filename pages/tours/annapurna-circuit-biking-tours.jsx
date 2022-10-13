@@ -45,7 +45,7 @@ Annapurna Circuit Cycling is Another world high 5416m Altitude Thorongla Pass Ad
 <div className={styles.container}>
     <div className={styles.heading}>
 <h1>Annapurna Circuit Biking Tours</h1>
-<p>A perfect tour in Pokhara for adventure lovers!</p>
+<p>A perfect tours in Nepal for adventure lovers!</p>
 <p>
 
 Annapurna Circuit Cycling is Another world high 5416m Altitude Thorongla Pass Adventure expeditions and challenging Mountain Bike Tours packages. Riders say that if the cyclists pass this Thorongla then those riders and pass the any challenging event of biking. Thousands of riders and hikers came to Nepal only for Thorongla pass.

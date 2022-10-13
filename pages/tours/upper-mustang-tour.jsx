@@ -48,7 +48,7 @@ Manthang is unique on its own.
 <div className={styles.container}>
     <div className={styles.heading}>
 <h1>Upper Mustang Biking Tour</h1>
-<p>A perfect tour in Pokhara for adventure lovers!</p>
+<p>A perfect tours in Nepal for adventure lovers!</p>
 <p>
 
 Upper Mustang is a restricted place to visit for foreigners so, they need a special permit to enter the

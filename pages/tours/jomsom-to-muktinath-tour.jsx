@@ -45,7 +45,7 @@ Jomsom to Muktinath Biking Tours is adventure expedition ride. Which is Start fr
 <div className={styles.container}>
     <div className={styles.heading}>
 <h1>Jomsom to Muktinath Biking Tours for 5 days</h1>
-<p>A perfect tour in Pokhara for adventure lovers!</p>
+<p>A perfect tour in Mustang for adventure lovers!</p>
 <p>
 
 Jomsom to Muktinath Biking Tours is adventure expedition ride. Which is Start from 3200 m high Altitude. Mustang area is famous for cycling and hiking for tourists and domestic tourist. Is desert land Wendy and cold weather. So is much challenging for biking.
