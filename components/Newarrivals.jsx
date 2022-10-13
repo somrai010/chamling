@@ -14,12 +14,12 @@ export default function Rarezone() {
       
 <div className={styles.image}>
 
-<Image src='/newarrival1.jpg' alt='special product' layout='fill'/>
+<Image src='/newarrival3.png' alt='special product' layout='fill'/>
 </div>
 
 <div className={styles.image}>
 
-<Image src='/newarrival2.jpg' alt='special product' layout='fill'/>
+<Image src='/newarrival4.png' alt='special product' layout='fill'/>
 </div>
 </div>
         </div>

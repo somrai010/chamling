@@ -13,7 +13,7 @@ export default function About() {
         <title>About us Chamling Cycle Pokhara</title>
         <meta name="description" content="The bike shop in Pokhara, Nepal. Chamling Company is Running Adventures Cycling Tours / Trips. Aslo MTB Rides, Sale, Rental & Bicycles Maintenance. And giving much better services to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in all sectors." />
         <link rel="icon" href="/logo.jpg" />
-        <meta property="og:image" content='/slide/2.jpg' />
+        <meta property="og:image" content='/about1.jpg' />
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
