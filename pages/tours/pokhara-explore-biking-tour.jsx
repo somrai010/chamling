@@ -48,7 +48,7 @@ Pokhara Explor Biking Tours are Cycling in all famous places of Mountain Bike To
 <p>A perfect tour in Pokhara for adventure lovers!</p>
 <p>
 
-Pokhara Explor Biking Tours are Cycling in all famous places of Mountain Bike Tours and Adventures Mountains of Pokhara valley. And also it's all in one of the days tours of Pokhara Districts. So we Explor ride in a 6 days in Rocky, Bumpy, Trails into the jungle of Pokhara Nepal. Are you ready ?
+Pokhara Explor Biking Tours are Cycling in all famous places of Mountain Bike Tours and Adventures Mountains of Pokhara valley. And also it is all in one of the days tours of Pokhara Districts. So we Explor ride in a 6 days in Rocky, Bumpy, Trails into the jungle of Pokhara Nepal. Are you ready ?
 </p>
     </div>
     <div className={styles.body}>
