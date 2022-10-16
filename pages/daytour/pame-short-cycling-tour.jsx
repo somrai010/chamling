@@ -21,9 +21,9 @@ export default function Index() {
   return (
     <div>
 <Head>
-    <title>Bamdi Short Cycling Day Tour</title>
-    <meta name="description" content="Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m." />
-    <meta name='keywords' content="bamdi short cycling day tour, bamdi cycle tour, cycle tour to bamdi, cycle tour pokhara to bamdi" />
+    <title>Pame Short Cycling Day Tour</title>
+    <meta name="description" content="Pame Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m." />
+    <meta name='keywords' content="pame short cycling day tour, pame cycle tour, cycle tour to peme, cycle tour pokhara to pame" />
    
     <meta property="og:image" content="/tours/bamdi1.jpg" />
     <link rel="icon" href="/logo.jpg" />
@@ -42,10 +42,10 @@ export default function Index() {
 </div>
 <div className={styles.container}>
     <div className={styles.heading}>
-<h1>Bamdi Short Cycling Day tour</h1>
+<h1>Pame Short Cycling Day tour</h1>
 <p>A perfect day tour in Pokhara for adventure lovers!</p>
 <p>
-Bamdi Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m.</p>
+Pame Cycling Tour is 3 hours easy flat ride from the bike shop. Total distances is 22 km and Elevation start is 900m.</p>
     </div>
     <div className={styles.body}>
 <div className={styles.contents}>

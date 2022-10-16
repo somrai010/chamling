@@ -45,11 +45,11 @@ These 3 days Biking tours, Start Pokhara to Panchase to Matikhan to Begnas. Tota
 </div>
 <div className={styles.container}>
     <div className={styles.heading}>
-<h1>Panchase to matikhan cycling tour for 3 days</h1>
+<h1>Panchase to mattikhan cycling tour for 3 days</h1>
 <p>A perfect tour in Pokhara for adventure lovers!</p>
 <p>
 
-These 3 days Biking tours, Start Pokhara to Panchase to Matikhan to Begnas. Total km is 115 km and Maximum elevation is 2066 m. All trails are much challenges adventure bike tours.
+These 3 days Biking tours, Start Pokhara to Panchase to Mattikhan to Begnas. Total km is 115 km and Maximum elevation is 2066 m. All trails are much challenges adventure bike tours.
 
 </p>
     </div>
@@ -64,11 +64,11 @@ These 3 days Biking tours, Start Pokhara to Panchase to Matikhan to Begnas. Tota
         </li>
     <li><span><FaLongArrowAltRight/></span>
     Day 2nd Panchase to Matikhan 42km
-Down.. down.. and down. And when reach top of the Matikhan. View is awesome and at night the Pokhara city is most beautiful of lights.
+Down.. down.. and down. And when reach top of the Mattikhan. View is awesome and at night the Pokhara city is most beautiful of lights.
  </li>
 
  <li><span><FaLongArrowAltRight/></span>
- Day 3rd in the early morning wake up 5 am ride to Matikhan Dada for sunrise view. And back to hotel, Have brake fast and then again continue ride to Begnas Lake 22 Km. About 3 hours ride. Lunch at Begnas and back to Pokhara City.
+ Day 3rd in the early morning wake up 5 am ride to Mattikhan Dada for sunrise view. And back to hotel, Have brake fast and then again continue ride to Begnas Lake 22 Km. About 3 hours ride. Lunch at Begnas and back to Pokhara City.
  </li>
 
     </ul>

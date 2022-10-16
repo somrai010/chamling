@@ -68,7 +68,7 @@ const Header = () => {
                 <a href="#" className="desktop-link">Pokhara Day Biking Tours</a>
                <ul>
                <li>
-                <Link href="/daytour/bamdi-short-cycling-tour" ><a className="desktop-link">Bamdi Short Cycling Tour </a></Link>
+                <Link href="/daytour/pame-short-cycling-tour" ><a className="desktop-link">Pame Short Cycling Tour </a></Link>
               </li>
 
               <li>
@@ -80,7 +80,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link href="/daytour/biking-tour-matikhan" ><a className="desktop-link">Biking tour at matikhan </a></Link>
+                <Link href="/daytour/biking-tour-mattikhan" ><a className="desktop-link">Biking tour at mattikhan </a></Link>
               </li>
             
 
