@@ -86,7 +86,7 @@ const [multidaytour,setMultidaytour]=useState(false);
               </li>
 
               <li>
-                <Link href="/daytour/biking-tour-matikhan" ><a className="desktop-link">Biking tour at mattikhan </a></Link>
+                <Link href="/daytour/biking-tour-mattikhan" ><a className="desktop-link">Biking tour at mattikhan </a></Link>
               </li>
             
 
@@ -107,7 +107,7 @@ const [multidaytour,setMultidaytour]=useState(false);
                   </li>
 
                   <li>
-                  <Link href="/multiday/panchase-to-matikhan-tour"><a className="desktop-link"> 3 Days Panchase to Matikhan  </a></Link>
+                  <Link href="/multiday/panchase-to-mattikhan-tour"><a className="desktop-link"> 3 Days Panchase to Mattikhan  </a></Link>
                   </li>
 
 

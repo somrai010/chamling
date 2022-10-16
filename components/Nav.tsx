@@ -101,7 +101,7 @@ const Header = () => {
                  </li>
                   
                  <li>
-                <Link href="/multiday/panchase-to-matikhan-tour" ><a className="desktop-link"> 3 Days Panchase to Matikhan</a></Link>
+                <Link href="/multiday/panchase-to-mattikhan-tour" ><a className="desktop-link"> 3 Days Panchase to Mattikhan</a></Link>
                  </li>
 
                  

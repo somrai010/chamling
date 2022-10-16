@@ -21,10 +21,10 @@ export default function Index() {
   return (
     <div>
 <Head>
-    <title>Biking Tour At Mathikhan</title>
-    <meta name="description" content="Matikhan is the next district near by Pokhara. It&apos;s quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
+    <title>Biking Tour At Matthikhan</title>
+    <meta name="description" content="Mattikhan is the next district near by Pokhara. It&apos;s quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
 Total distance is 35km, Elevation 1200 m and Average duration is 6 hours" />
-    <meta name='keywords' content="biking tour at mathikhan, mathikhan biking tour provider" />
+    <meta name='keywords' content="biking tour at matthikhan, matthikhan biking tour provider" />
    
     <meta property="og:image" content="/tours/mathikhan1.jpg" />
     <link rel="icon" href="/logo.jpg" />
@@ -43,10 +43,10 @@ Total distance is 35km, Elevation 1200 m and Average duration is 6 hours" />
 </div>
 <div className={styles.container}>
     <div className={styles.heading}>
-<h1>Biking Tour At Matikhan</h1>
+<h1>Biking Tour At Mattikhan</h1>
 <p>A perfect day tour in Pokhara for adventure lovers!</p>
 <p>
-Matikhan is the next district near by Pokhara. It&apos;s quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
+Mattikhan is the next district near by Pokhara. It&apos;s quite peace distinaton and beauty of nature. From there you will see all Himalayas and hills of Pokhara valley.
 Total distance is 35km, Elevation 1200 m and Average duration is 6 hours
 </p>
     </div>
@@ -57,8 +57,8 @@ Total distance is 35km, Elevation 1200 m and Average duration is 6 hours
     <h4>Itineraries</h4>
     <ul>
         <li><span><FaLongArrowAltRight/></span>Tour departure time is 9 am. And ride start continue about 40 minutes to end of city. And then 7 km up hill ride easily with some rest brake and fell adventures. </li>
-    <li><span><FaLongArrowAltRight/></span>After the 2 hours up hill adventure ride. You will get lunch, house. And have aLunch and 30 minutes rest again and then pedal 15 minutes to rich top of the Mathikhan.  </li>
-    <li><span><FaLongArrowAltRight/></span>And then from the Matikhan non stop 10 km downhill trail. Which is enjoyable fun adventure down hill ride. Then easy relax depal up to Bike shop about 20 minutes.</li>
+    <li><span><FaLongArrowAltRight/></span>After the 2 hours up hill adventure ride. You will get lunch, house. And have aLunch and 30 minutes rest again and then pedal 15 minutes to rich top of the Matthikhan.  </li>
+    <li><span><FaLongArrowAltRight/></span>And then from the Mattikhan non stop 10 km downhill trail. Which is enjoyable fun adventure down hill ride. Then easy relax depal up to Bike shop about 20 minutes.</li>
     
     
     </ul>
