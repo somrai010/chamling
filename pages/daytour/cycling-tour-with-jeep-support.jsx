@@ -23,7 +23,9 @@ export default function Index() {
         <title>Cycling Tour with Jeep support</title>
         <meta
           name="description"
-          content="Day Jeep support Downhill Cycling Tours will be 3 places first  will be sunrise in Sarangkot and second will be mattiKhan and then last will be world peace pakoda."
+          content="Day Jeep support Downhill Cycling Tours will
+           be 3 places are as first Sunrise in Sarangkot.
+            Second MattiKhan and last will be World Peace Pagoda"
         />
         <meta
           name="keywords"
@@ -50,9 +52,9 @@ export default function Index() {
           <h1> Cycling Tour with Jeep support</h1>
           <p>A perfect day tour in Pokhara for adventure lovers!</p>
           <p>
-            Day Jeep support Downhill Cycling Tours will be 3 places first will
-            be sunrise in Sarangkot and second will be mattiKhan and then last
-            will be world peace pakoda
+            Day Jeep support Downhill Cycling Tours will be 3 places are as
+            first Sunrise in Sarangkot. Second MattiKhan and last will be World
+            Peace Pagoda
           </p>
         </div>
         <div className={styles.body}>
@@ -73,23 +75,20 @@ export default function Index() {
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  At the top of the Sarangkot we will see sunrise and Himalayan
-                  range about 30 minutes and have a breakfast and then ride to
-                  Deurali 30 minutes. There you see Himalayans very close of
-                  you. And ride down to khapaudi about 10kms. From Khapaudi
-                  again jeep will pick up and drive to top of the Matikhan about
-                  35 minutes. And get down 10 kms. to the Phusre khola.
+                  At the top of Sarangkot we will spend 30 minutes and also have
+                  a breakfast at Sarangkot then ride down to the Deurali 30
+                  minutes. In Deurali you will see Himalayans very close of you.
+                  And ride down to Khapaudi about 10kms. From Khapaudi. From
+                  there jeep will pick up and drive about 30 minutes and drop
+                  top of the Matikhan. And again more fun downhill will be 10
+                  kms to the Phusre khola.
                 </li>
 
                 <li>
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  From Phusre khola again the jeep will pick up and drop to
-                  World Peace Stupa. There we will have lunch and ride
-                  singletrack down hill into the jungle. It will also 30 minutes
-                  ride but we will do it twice. And then back to the bike shop
-                  or your hotel.
+                  From Phusre again by jeep the last downhill World Peace Stupa. There you will have.
                 </li>
               </ul>
             </div>

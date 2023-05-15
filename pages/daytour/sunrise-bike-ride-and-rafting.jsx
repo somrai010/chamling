@@ -23,13 +23,14 @@ export default function Index() {
         <title>Sunrise, Bike Ride and Rafting</title>
         <meta
           name="description"
-          content="In this sunrise cycling and rafting trip. It is it is packaging adventure 
-          tour So that we cover all the places in one trip for much fun. Which is also easy
-           and short expedition in one day."
+          content="
+          In this sunrise cycling and rafting trip. It is the short 
+          day adventures packaging for Expedition lovers. So we cover
+           all the places in one trip for much fun. Which is easy and short everybody can join"
         />
         <meta name="keywords" content=" sunrise bike ride and rafting tour" />
 
-        <meta property="og:image" content="/sunrise/3.jpg" />
+        <meta property="og:image" content="/sunrise/1.jpg" />
         <link rel="icon" href="/logo.jpg" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,9 +50,10 @@ export default function Index() {
           <h1> Sunrise, Bike Ride and Rafting</h1>
           <p>A perfect day tour in Pokhara for adventure lovers!</p>
           <p>
-            In this sunrise cycling and rafting trip. It is it is packaging
-            adventure tour So that we cover all the places in one trip for much
-            fun. Which is also easy and short expedition in one day.
+            In this sunrise cycling and rafting trip. It is the short day
+            adventures packaging for Expedition lovers. So we cover all the
+            places in one trip for much fun. Which is easy and short everybody
+            can join
           </p>
         </div>
         <div className={styles.body}>
@@ -63,34 +65,26 @@ export default function Index() {
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  Starting a trip wake up in the morning 5:00 a.m. write the
-                  bike from your hotel to cable car station.
+                  Start early in the morning at 5:00 am. for sunrise. Ride the
+                  bike hotel to the cable car station. From Lake it will be abi
+                  10 to 15 minutes. Cable car to Sarangkot by cable care drive
+                  10 minutes with bikes walk to the view point for Sunrise.
+                  There we will be 30 minutes and also have a light breakfast at
+                  Sarangkot.
                 </li>
                 <li>
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  Cable car to sarangkot drive 10 minutes with bike and get to
-                  the view point for sunrise. There we will be 30 minutes and
-                  also eat lunch at Sarangkot.
+                  After few minutes of breakfast we will ride 1 hour 40 minutes of
+                   the point of Rafting start. Rafting. And then yours Upper Seti 
+                   Rafting will be 40 minutes till Yamdi where will be end rafting
+                    and have again light lunch and from Yamdi back to the Pokhara by jeep.
                 </li>
 
-                <li>
-                  <span>
-                    <FaLongArrowAltRight />
-                  </span>
-                  After few minutes of breakfast we will ride 1hour 30 minutes
-                  of the rafting start point. Which is 30 kms
-                </li>
 
-                <li>
-                  <span>
-                    <FaLongArrowAltRight />
-                  </span>
-                  And then yours Upper Seti Rafting will be 40 minutes till
-                  Yamdi where will be end rafting and have a light lunch and
-                  Yamdi then back to the Pokhara
-                </li>
+
+              
               </ul>
             </div>
 
