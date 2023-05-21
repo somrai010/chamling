@@ -33,7 +33,7 @@ export default function Index() {
         />
 
         <meta property="og:image" content="/1/1.jpg" />
-        <link rel="icon" href="/logo.jpg" />
+        <link rel="icon" href="/newlogo.jpg" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -66,10 +66,10 @@ export default function Index() {
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  Wake up in the morning 5:00 a.m. And get ready for your jeep.
-                  And then jeep will pick up from your hotel and drop to the
-                  cable car station. By cable car you will drive about 10
-                  minutes and 2.2 km to the Sarangkot for Sunrise.
+                  Wake up in the morning 5:00 a.m. Get ready for jeep. And the
+                  jeep will drop at the cable car station. By cable car will
+                  drive about 10 minutes and 2.2 km to the Sarangkot for
+                  beautiful Sunrise.
                 </li>
                 <li>
                   <span>
@@ -88,7 +88,8 @@ export default function Index() {
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  From Phusre again by jeep the last downhill World Peace Stupa. There you will have.
+                  From Phusre again by jeep the last downhill World Peace Stupa.
+                  There you will have
                 </li>
               </ul>
             </div>

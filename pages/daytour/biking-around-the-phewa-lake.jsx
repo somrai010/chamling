@@ -27,7 +27,7 @@ export default function Index() {
     <meta name='keywords' content="biking around the phewa lake, phewa lake tour, phewa lake biking tour provider" />
    
     <meta property="og:image" content="/tours/phewa1.jpg" />
-    <link rel="icon" href="/logo.jpg" />
+    <link rel="icon" href="/newlogo.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

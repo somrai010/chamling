@@ -31,7 +31,7 @@ Manthang is unique on its own.
     <meta name='keywords' content="upper mustang tour" />
    
     <meta property="og:image" content="/tours/mustang1.jpg" />
-    <link rel="icon" href="/logo.jpg" />
+    <link rel="icon" href="/newlogo.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

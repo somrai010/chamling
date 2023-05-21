@@ -28,7 +28,7 @@ Jomsom to Muktinath Biking Tours is adventure expedition ride. Which is Start fr
     <meta name='keywords' content="jomsom to muktinath tour" />
    
     <meta property="og:image" content="/tours/jomsom2.jpg" />
-    <link rel="icon" href="/logo.jpg" />
+    <link rel="icon" href="/newlogo.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

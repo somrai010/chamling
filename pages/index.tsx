@@ -21,9 +21,14 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Cycle Tour in Nepal - The Bike Shop Pokhara</title>
-        <meta name="description" content="The bike shop in Pokhara, Nepal. Chamling Company is Running Adventures Cycling Tours / Trips. Aslo MTB Rides, Sale, Rental & Bicycles Maintenance. And giving much better services to customers. Not only that our team all born for cycling / MTB. We have more than 10 years experience guides mechanics and riders staffs. And also the founder self 15 years experienced in Mountain Biking in all sectors." />
-        <link rel="icon" href="/logo.jpg" />
+        <title>Chamling Cycle : A Galaxy of Bicycles</title>
+        <meta name="description" content="The bike shop in Pokhara, Nepal. Chamling Company is Running Adventures
+         Cycling Tours / Trips. Aslo MTB Rides, Sale, Rental
+          & Bicycles Maintenance. And giving much better services to customers.
+           Not only that our team all born for cycling / MTB. We have more 
+           than 10 years experience guides mechanics and riders staffs. And 
+           also the founder self 15 years experienced in Mountain Biking in all sectors." />
+        <link rel="icon" href="/newlogo.jpg" />
         <meta property="og:image" content='/slide/1.jpg' />
 
 

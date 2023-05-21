@@ -28,7 +28,7 @@ const DrawerComp = () => {
         <div className={styles.logo}>
           <Link href="/">
             <a>
-              <img src="/logo.jpg" alt="logo" className={styles.logo} />
+              <img src="/newlogo.jpg" alt="logo" className={styles.logo} />
             </a>
           </Link>
         </div>

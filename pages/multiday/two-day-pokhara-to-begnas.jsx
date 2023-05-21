@@ -26,7 +26,7 @@ export default function Index() {
     <meta name='keywords' content="pokhara to begnas cycle tour, pokhara to begnas cycling" />
    
     <meta property="og:image" content="/tours/begnas1.jpg" />
-    <link rel="icon" href="/logo.jpg" />
+    <link rel="icon" href="/newlogo.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
