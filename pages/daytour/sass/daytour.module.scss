@@ -1,205 +1,184 @@
-@use '../../../sass/global' as c;
+@use "../../../sass/global" as c;
 
 .heading {
-    padding:50px;
-    width:100%;
-    height:auto;
-    background-color: c.$easywhite;
-    h1 {
-        font-family: c.$boldfont;
-        font-weight: 100;
-        margin-bottom: 5px;
-    }
-    p {
-        font-family: c.$cutefont;
-        margin-top: 0px;
-        padding-top: 0px;
-    }
+  padding: 50px;
+  width: 100%;
+  height: auto;
+  background-color: c.$easywhite;
+  h1 {
+    font-family: c.$boldfont;
+    font-weight: 100;
+    margin-bottom: 5px;
+  }
+  p {
+    font-family: c.$cutefont;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 }
 
 .body {
-    padding:50px;
-    width:100%;
-    height:auto;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    box-sizing: border-box;
-  
-    div {
-        margin:20px;
-    }
+  padding: 50px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  box-sizing: border-box;
 
+  div {
+    margin: 20px;
+  }
 
-.contents {
-       
-        width:100%;
-        height:auto;
-        background-color: c.$easywhite;
-.points {
-            position: relative;
-            width:100%;
-            height:auto;
-h4 {
-    font-family: c.$boldfont;
-    font-weight: 100;
-   
-}
-ul {
-    li {
-        list-style: none;
-        font-family: c.$defaultfont;
-        margin-top: 20px;
-        span {
-            position: relative;
-            top:3px
-        }
-    }
-}
-
-        }
-      
-.images {
-           width:99%;
-           margin:auto;
-           min-height: 500px;
-           position: relative;
-           left:0px;
-          
-         
-
-
-           
-    img {
-        width:100%;
-        height:auto;
-        object-fit:cover;
-        
-        
-    }
-            
-            
-        }
-    }
-
-
-
-    .contacts {
-      
-        width:100%;
-        height:auto;
-       
-        .contact {
-width:90%;
-min-height: 200px;
-margin:auto;
-background-color: c.$easywhite;
-position: sticky;
-margin-bottom: 30px;
-
-top:200;
-
-padding: 15px;
-box-sizing: border-box;
-box-shadow: 2px 2px 5px rgb(235, 210, 210);
-h4 {
-    font-family: c.$boldfont;
-    font-weight: 100;
-    text-align: center;
-   
-}
-h5 {
-    font-size: 1.5rem;
-    font-family: c.$defaultfont;
-    color:rgb(114, 92, 92);
-    font-size: 20px;
-    span {
-        position: relative;
-        top:3px;
-    }
-}
-
-h2 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: 900;
-    margin:10px;
-    font-family: c.$defaultfont;
-    strong {
-        color:rgb(151, 151, 189);
-    }
-}
-p {
-    text-align: center;
-    font-family: c.$cutefont;
-}
-        }
-    }
-}
-
-
-@media (max-width:1000px) {
-    .heading {
-        padding:20px;
-     
-    }
-
-
-    .body {
-        padding:20px;
-   
-        grid-template-columns: 100%;
-  
-      
-        div {
-            margin:0px;
-            padding:10px;
-            
-    
-        }
-        .contents {
-            width:100%;
-            height:auto;
-            background-color: c.$easywhite;
-        
-          
-            img {
-                width:100%;
-                height:auto;
-                object-fit: cover;
-            }
-        }
-        .contacts {
-            .contact {
-    width:100%;
-    min-height: 200px;
-    margin:auto;
+  .contents {
+    width: 100%;
+    height: auto;
     background-color: c.$easywhite;
-    position: sticky;
-    
-    top:300;
-    
-    padding: 15px;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 5px rgb(235, 210, 210);
-    h4 {
+    .points {
+      position: relative;
+      width: 100%;
+      height: auto;
+      overflow-wrap: normal;
+      h4 {
+        font-family: c.$boldfont;
+        font-weight: 100;
+      }
+      ul {
+        width: 95%;
+        li {
+          list-style: none;
+          font-family: c.$defaultfont;
+          margin-top: 20px;
+          overflow: auto;
+          span {
+            position: relative;
+            top: 3px;
+          }
+        }
+      }
+    }
+
+    .images {
+      width: 99%;
+      margin: auto;
+      min-height: 500px;
+      position: relative;
+      left: 0px;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .contacts {
+    width: 100%;
+    height: auto;
+
+    .contact {
+      width: 90%;
+      min-height: 200px;
+      margin: auto;
+      background-color: c.$easywhite;
+      position: sticky;
+      margin-bottom: 30px;
+
+      top: 200;
+
+      padding: 15px;
+      box-sizing: border-box;
+      box-shadow: 2px 2px 5px rgb(235, 210, 210);
+      h4 {
         font-family: c.$boldfont;
         font-weight: 100;
         text-align: center;
-    }
-    h5 {
+      }
+      h5 {
         font-size: 1.5rem;
         font-family: c.$defaultfont;
-        color:rgb(114, 92, 92);
-        font-size: 15px;
+        color: rgb(114, 92, 92);
+        font-size: 20px;
         span {
-            position: relative;
-            top:3px;
-            transition: all 0.3s linear 0s;
+          position: relative;
+          top: 3px;
         }
-    }
-            }
-        }
-    }
+      }
 
+      h2 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        margin: 10px;
+        font-family: c.$defaultfont;
+        strong {
+          color: rgb(151, 151, 189);
+        }
+      }
+      p {
+        text-align: center;
+        font-family: c.$cutefont;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    padding: 20px;
+  }
+
+  .body {
+    padding: 20px;
+
+    grid-template-columns: 100%;
+
+    div {
+      margin: 0px;
+      padding: 10px;
+    }
+    .contents {
+      width: 100%;
+      height: auto;
+      background-color: c.$easywhite;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+    .contacts {
+      .contact {
+        width: 100%;
+        min-height: 200px;
+        margin: auto;
+        background-color: c.$easywhite;
+        position: sticky;
+
+        top: 300;
+
+        padding: 15px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 5px rgb(235, 210, 210);
+        h4 {
+          font-family: c.$boldfont;
+          font-weight: 100;
+          text-align: center;
+        }
+        h5 {
+          font-size: 1.5rem;
+          font-family: c.$defaultfont;
+          color: rgb(114, 92, 92);
+          font-size: 15px;
+          span {
+            position: relative;
+            top: 3px;
+            transition: all 0.3s linear 0s;
+          }
+        }
+      }
+    }
+  }
 }

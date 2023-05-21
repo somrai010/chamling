@@ -49,7 +49,7 @@ export default function Index() {
       </div>
       <div className={styles.container}>
         <div className={styles.heading}>
-          <h1> Cycling Tour with Jeep support</h1>
+          <h1> Cycling Tour with Jeep Support</h1>
           <p>A perfect day tour in Pokhara for adventure lovers!</p>
           <p>
             Day Jeep support Downhill Cycling Tours will be 3 places are as

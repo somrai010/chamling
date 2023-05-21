@@ -66,25 +66,22 @@ export default function Index() {
                     <FaLongArrowAltRight />
                   </span>
                   Start early in the morning at 5:00 am. for sunrise. Ride the
-                  bike hotel to the cable car station. From Lake it will be abi
-                  10 to 15 minutes. Cable car to Sarangkot by cable care drive
-                  10 minutes with bikes walk to the view point for Sunrise.
-                  There we will be 30 minutes and also have a light breakfast at
-                  Sarangkot.
+                  bike hotel to the cable car station. From Lake it will be
+                  about 10 to 15 minutes. Cable car to Sarangkot by cable care
+                  drive 10 minutes with bikes walk to the view point for
+                  Sunrise. There we will be 30 minutes and also have a light
+                  breakfast at Sarangkot.
                 </li>
                 <li>
                   <span>
                     <FaLongArrowAltRight />
                   </span>
-                  After few minutes of breakfast we will ride 1 hour 40 minutes of
-                   the point of Rafting start. Rafting. And then yours Upper Seti 
-                   Rafting will be 40 minutes till Yamdi where will be end rafting
-                    and have again light lunch and from Yamdi back to the Pokhara by jeep.
+                  After few minutes of breakfast we will ride 1 hour 40 minutes
+                  of the point of Rafting start. Rafting. And then yours Upper
+                  Seti Rafting will be 40 minutes till Yamdi where will be end
+                  rafting and have again light lunch and from Yamdi back to the
+                  Pokhara by jeep.
                 </li>
-
-
-
-              
               </ul>
             </div>
 
