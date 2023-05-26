@@ -26,7 +26,7 @@ export default function Index() {
     <meta name='keywords' content="sarangkot bike tour, pokhara to sarangkot bike tour" />
    
     <meta property="og:image" content="/tours/sarangkot.jpg" />
-    <link rel="icon" href="/newlogo.jpg" />
+    <link rel="icon" href="/logo1.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

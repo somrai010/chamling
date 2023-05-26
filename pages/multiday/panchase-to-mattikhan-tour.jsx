@@ -29,7 +29,7 @@ These 3 days Biking tours, Start Pokhara to Panchase to Matikhan to Begnas. Tota
     <meta name='keywords' content="panchase to muktinath cycle tour" />
    
     <meta property="og:image" content="/tours/panchase1.png" />
-    <link rel="icon" href="/newlogo.jpg" />
+    <link rel="icon" href="/logo1.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

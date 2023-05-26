@@ -27,7 +27,7 @@ Total distance is 35km, Elevation 1200 m and Average duration is 6 hours" />
     <meta name='keywords' content="biking tour at matthikhan, matthikhan biking tour provider" />
    
     <meta property="og:image" content="/tours/mathikhan1.jpg" />
-    <link rel="icon" href="/newlogo.jpg" />
+    <link rel="icon" href="/logo1.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

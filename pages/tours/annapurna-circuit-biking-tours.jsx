@@ -28,7 +28,7 @@ Annapurna Circuit Cycling is Another world high 5416m Altitude Thorongla Pass Ad
     <meta name='keywords' content="annapurna circuit biking tours" />
    
     <meta property="og:image" content="/tours/annapurna1.jpg" />
-    <link rel="icon" href="/newlogo.jpg" />
+    <link rel="icon" href="/logo1.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

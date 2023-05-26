@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             mechanics and riders staffs. And also the founder self 
             15 years experienced in Mountain Biking in all sectors."
         />
-        <link rel="icon" href="/newlogo.jpg" />
+        <link rel="icon" href="/logo1.jpg" />
       </Head>
 
       <CartProvider>

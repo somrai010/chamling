@@ -17,7 +17,7 @@ export default function About() {
          that our team all born for cycling / MTB. We have more than 10 years 
          experience guides mechanics and riders staffs. And also the founder
           self 15 years experienced in Mountain Biking in all sectors." />
-        <link rel="icon" href="/newlogo.jpg" />
+        <link rel="icon" href="/logo1.jpg" />
         <meta property="og:image" content='/about1.jpg' />
 
 

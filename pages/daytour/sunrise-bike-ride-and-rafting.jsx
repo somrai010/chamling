@@ -31,7 +31,7 @@ export default function Index() {
         <meta name="keywords" content=" sunrise bike ride and rafting tour" />
 
         <meta property="og:image" content="/sunrise/1.jpg" />
-        <link rel="icon" href="/newlogo.jpg" />
+        <link rel="icon" href="/logo1.jpg" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />

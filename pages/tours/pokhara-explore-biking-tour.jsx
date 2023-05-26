@@ -28,7 +28,7 @@ Pokhara Explor Biking Tours are Cycling in all famous places of Mountain Bike To
     <meta name='keywords' content="pokhara biking tour, pokhara explore biking tour" />
    
     <meta property="og:image" content="/tours/pokhara1.jpg" />
-    <link rel="icon" href="/newlogo.jpg" />
+    <link rel="icon" href="/logo1.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

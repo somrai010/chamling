@@ -27,7 +27,7 @@ Dhampus and Australia camp both distinaton are near each other and complete with
     <meta name='keywords' content="dhampus to australian camp cycle tour, dhampus to australian camp tour" />
    
     <meta property="og:image" content="/tours/dhampus1.jpg" />
-    <link rel="icon" href="/newlogo.jpg" />
+    <link rel="icon" href="/logo1.jpg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />

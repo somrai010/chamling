@@ -33,7 +33,7 @@ export default function Index() {
         />
 
         <meta property="og:image" content="/1/1.jpg" />
-        <link rel="icon" href="/newlogo.jpg" />
+        <link rel="icon" href="/logo1.jpg" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />

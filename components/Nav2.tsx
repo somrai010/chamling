@@ -38,7 +38,7 @@ const Header = () => {
     
     }} >
         <Toolbar>
-        <img src='/logo.png' alt='logo' className={styles.logo}/>
+        <img src='/logo1.png' alt='logo' className={styles.logo}/>
           {isMatch ? (
             <>
               <Typography sx={{ fontSize: "2rem", paddingLeft: "10%" }}>

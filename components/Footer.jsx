@@ -12,7 +12,7 @@ export default function Footer() {
         <div className={styles.footer}>
             <div className={styles.sections}>
                 <div className={styles.logo}>
-<img src='/newlogo.jpg' alt='logo' />
+<img src='/logo1.jpg' alt='logo' />
                 </div>
                 <div className={styles.pages}>
                 <Link href='#' className={styles.flinks}><a>Home</a></Link> <br/><br/>
